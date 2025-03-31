@@ -18,15 +18,15 @@ export default function Products() {
 
   return (
     <div className="">
-      <div className="w-fit mx-auto mt-20">
-        <div className="font-main text-3xl font-semibold text-gray-700">Our Product Range</div>
-        <div className="mt-2 border-b-3 rounded-full max-w-[30%] mx-auto border-[#169EBE]"></div>
+      <div className="w-fit mx-auto mt-14 sm:mt-20">
+        <div className="font-main text-xl lg:text-3xl font-semibold text-gray-700">Our Product Range</div>
+        <div className="mt-1 lg:mt-2 border-b-3 rounded-full max-w-[30%] mx-auto border-[#169EBE]"></div>
       </div>
-      <div className="space-y-8 py-16 px-6 lg:px-28 max-w-screen-xl mx-auto">
+      <div className="space-y-8 py-12 md:py-16 px-3 sm:px-6 lg:px-28 max-w-screen-xl mx-auto">
         {productsData.map((product) => (
           <div
             key={product.heading}
-            className="bg-blue-50/50 p-6 rounded-lg shadow-md"
+            className="bg-blue-50/50 py-3 px-4 sm:p-6 rounded-lg shadow-md"
           >
             <div className="font-bold text-lg lg:text-2xl text-gray-700 mb-4 font-main">
               {product.heading}
@@ -35,7 +35,7 @@ export default function Products() {
               {product.items.map((item, index) => (
                 <div
                   key={item}
-                  className={` p-4 ${
+                  className={`py-3 md:py-4 px-3 md:px-4 ${
                     index % 2 === 0 ? "bg-blue-100/80" : "bg-blue-100/50"
                   } rounded-lg`}
                 >
@@ -63,7 +63,7 @@ export default function Products() {
                     }`}
                   >
                     {visibleItems[`${product.heading}-${item}`] && (
-                      <div className="mt-4 text-sm text-gray-500 font-details">
+                      <div className="mt-4 text-sm text-gray-500 font-details text-justify pr-1">
                         <p>
                           This is the description for {item} in{" "}
                           {product.heading}. You can add more details here.
