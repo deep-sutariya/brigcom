@@ -12,7 +12,8 @@
   --font-heading: "Robboto Slab", sans-serif;
   --font-details: "Open Sans", sans-serif;
   --col-black: "#252525";
-  --col-offblack: "#353535"
+  --col-offblack: "#353535";
+  --col-main: "#169EBE";
 }
 
 ::selection {

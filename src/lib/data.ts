@@ -19,10 +19,30 @@ export const FooterData = {
         { name: "Surat", link: "/surat" },
         { name: "Mumbai", link: "/mumbai" },
     ],
-    Contact:[
-        {name: "Registered address:", detail: "DhanShree, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, 395004", type: "address"},
-        {name: "Phone Number:", detail: "9999999999 / 8888888888", type: "phone"},
-        {name: "Email:", detail: "company@domain.com", type: "email"}
+    Contact: [
+        { name: "Registered address:", detail: "DhanShree, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, 395004", type: "address" },
+        { name: "Phone Number:", detail: "9999999999 / 8888888888", type: "phone" },
+        { name: "Email:", detail: "company@domain.com", type: "email" }
     ]
 
 }
+
+
+export const productsData = [
+    {
+        heading: "Ayurvedic & Natural Herns",
+        items: ["Product 1", "Product 2", "Product 3", "Product 4", "Product 5", "Other"]
+    },
+    {
+        heading: "Spices & Seasonings",
+        items: ["Product 1", "Product 2", "Product 3", "Product 4", "Product 5", "Other"]
+    },
+    {
+        heading: "Oil Seeds",
+        items: ["Product 1", "Product 2", "Product 3", "Product 4", "Product 5", "Other"]
+    },
+    {
+        heading: "Frozen & IQF",
+        items: ["Product 1", "Product 2", "Product 3", "Product 4", "Product 5", "Other"]
+    },
+];
