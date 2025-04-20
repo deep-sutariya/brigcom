@@ -44,8 +44,9 @@ const Navbar = () => {
         <div className={`drop-shadow-xl`}>
           <Link href="/"> 
             <Image
-              className={` drop-shadow-sm noDrag w-32 h-15 md:w-60 md:h-24 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
-              src="/main_logo.png"
+              // className={` drop-shadow-sm noDrag w-32 h-15 md:w-60 md:h-24 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
+              className={` drop-shadow-sm noDrag w-16 h-8 md:w-24 md:h-20 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
+              src="/icon.png"
               width={10000}
               height={10000}
               priority={true}
@@ -68,7 +69,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="md:hidden z-50">
+        <div className="md:hidden z-0">
           {menuToggle ? (
             <X className="w-8 h-8 cursor-pointer" onClick={toggleMenu} />
           ) : (
