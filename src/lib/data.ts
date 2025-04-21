@@ -7,7 +7,7 @@ export const FooterData = {
     { name: "Contact Us", link: "/contact" },
   ],
   Products: [
-    { name: "Ayurveda and Herbs", link: "/ayurvedaandherbs" },
+    { name: "Ayurveda / Natural Herbs", link: "/ayurvedaandherbs" },
     { name: "Spices", link: "/spices" },
     { name: "Oilseeds", link: "/oilseeds" },
     { name: "Frozen & IQF", link: "/" }
@@ -383,7 +383,7 @@ export const productData = {
 
 
 export const productUrltoNameMapping: Record<string, string> = {
-  "ayurvedaandherbs": "Ayurveda and Herbs",
+  "ayurvedaandherbs": "Ayurveda / Natural Herbs",
   "spices": "Spices",
   "oilseeds": "Oil Seeds",
 
