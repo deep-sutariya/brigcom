@@ -26,136 +26,583 @@ export const FooterData = {
 
 
 export const productData = {
-  ayurvedaandherbs: [
+  ayurvedaandherbs : [
     {
-      name: "Moringa Leaves",
-      scientificName: "Moringa oleifera",
+      name: "Mulethi",
+      scientificName: "Glycyrrhiza glabra",
+      hsCode: "12119029",
+      origin: "Gujarat, Rajasthan, and parts of Madhya Pradesh, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Boosts immunity",
+        "Soothes sore throat",
+        "Supports digestion",
+        "Anti-inflammatory",
+        "Rich in antioxidants"
+      ],
+      uses: [
+        "Herbal teas",
+        "Ayurveda and Unani medicines",
+        "Food flavoring",
+        "Cosmetics",
+        "Pharmaceutical preparations"
+      ],
       nutritionFacts: {
-        calories: "64 kcal",
-        dietaryFiber: "2.0 g",
-        totalCarbohydrate: "8.28 g",
-        protein: "9.4 g",
-        fat: "1.4 g",
+        calories: "375 kcal",
+        dietaryFiber: "0.2 g",
+        totalCarbohydrate: "93.5 g",
+        protein: "0 g",
+        fat: "0.05 g"
       },
       vitamins: {
-        "Vitamin A": "378 μg (42% DV)",
-        "Vitamin C": "51.7 mg (57% DV)",
-        "Vitamin E": "4.97 mg (33% DV)",
-        "Vitamin B1 (Thiamine)": "0.257 mg (21% DV)",
-        "Vitamin B2 (Riboflavin)": "0.66 mg (51% DV)",
-        "Vitamin B3 (Niacin)": "2.22 mg (14% DV)",
-        "Vitamin B6": "1.2 mg (92% DV)",
-        "Folate (B9)": "40 μg (10% DV)"
+        "Vitamin B1": "Present",
+        "Vitamin B3": "Present",
+        "Vitamin B5": "Present"
       },
       minerals: {
-        "Calcium": "185 mg (14% DV)",
-        "Iron": "4.00 mg (22% DV)",
-        "Magnesium": "42 mg (10% DV)",
-        "Phosphorus": "112 mg (16% DV)",
-        "Potassium": "337 mg (7% DV)",
-        "Sodium": "9 mg (0% DV)",
-        "Zinc": "0.6 mg (5% DV)",
-        "Copper": "0.1 mg (11% DV)",
-        "Manganese": "0.83 mg (36% DV)",
-        "Selenium": "0.9 μg (2% DV)"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
       }
     },
     {
-      name: "Ashwagandha",
-      scientificName: "Withania somnifera",
+      name: "Neem",
+      scientificName: "Azadirachta indica",
+      hsCode: "12119029",
+      origin: "Gujarat, Rajasthan, Uttar Pradesh, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Antibacterial",
+        "Antifungal",
+        "Antiviral",
+        "Supports skin health",
+        "Aids in dental care",
+        "Purifies blood"
+      ],
+      uses: [
+        "Herbal medicines",
+        "Cosmetics",
+        "Agriculture (natural pesticide)",
+        "Personal care products"
+      ],
       nutritionFacts: {
-        calories: "245 kcal",
-        dietaryFiber: "32.3 g",
-        totalCarbohydrate: "49.9 g",
-        protein: "3.9 g",
-        fat: "0.3 g",
+        calories: "120 kcal",
+        dietaryFiber: "2.1 g",
+        totalCarbohydrate: "25 g",
+        protein: "2.5 g",
+        fat: "1.1 g"
       },
       vitamins: {
-        "Vitamin C": "3.7 mg",
-        "Vitamin A": "0 IU"
+        "Vitamin C": "Present",
+        "Vitamin E": "Present",
+        "Vitamin B6": "Present"
       },
       minerals: {
-        "Calcium": "23.0 mg",
-        "Iron": "3.3 mg"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
+      }
+    },
+    {
+      name: "Moringa",
+      scientificName: "Moringa oleifera",
+      hsCode: "12119029",
+      origin: "Tamil Nadu, Andhra Pradesh, Gujarat, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Rich in antioxidants",
+        "Supports heart health",
+        "Anti-inflammatory",
+        "Regulates blood sugar levels"
+      ],
+      uses: [
+        "Nutritional supplements",
+        "Herbal teas",
+        "Functional foods",
+        "Cosmetics"
+      ],
+      nutritionFacts: {
+        calories: "64 kcal",
+        dietaryFiber: "2.0 g",
+        totalCarbohydrate: "8.3 g",
+        protein: "9.4 g",
+        fat: "1.4 g"
+      },
+      vitamins: {
+        "Vitamin A": "Present",
+        "Vitamin C": "Present",
+        "Vitamin E": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
+      }
+    },
+    {
+      name: "Turmeric",
+      scientificName: "Curcuma longa",
+      hsCode: "09103030",
+      origin: "Gujarat, Tamil Nadu, Andhra Pradesh, Maharashtra, Odisha, India",
+      availability: "February to July",
+      packaging: "25kg / 50kg PP bags, Jute Bags, or customized",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Anti-inflammatory",
+        "Rich in antioxidants",
+        "Supports joint health",
+        "Boosts immunity",
+        "Aids digestion"
+      ],
+      uses: [
+        "Spices",
+        "Herbal teas",
+        "Capsules",
+        "Extracts",
+        "Skincare",
+        "Wellness drinks"
+      ],
+      nutritionFacts: {
+        calories: "354 kcal",
+        dietaryFiber: "21 g",
+        totalCarbohydrate: "64.9 g",
+        protein: "7.8 g",
+        fat: "9.9 g"
+      },
+      vitamins: {
+        "Vitamin C": "Present",
+        "Vitamin E": "Present",
+        "Vitamin K": "Present"
+      },
+      minerals: {
+        "Iron": "Present",
+        "Manganese": "Present",
+        "Potassium": "Present"
+      }
+    },
+    {
+      name: "Tulsi",
+      scientificName: "Ocimum sanctum",
+      hsCode: "12119029",
+      origin: "Gujarat, Uttar Pradesh, Madhya Pradesh, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Reduces stress and anxiety",
+        "Supports respiratory health",
+        "Anti-inflammatory",
+        "Enhances immunity"
+      ],
+      uses: [
+        "Herbal teas",
+        "Ayurvedic medicines",
+        "Essential oils",
+        "Skincare products"
+      ],
+      nutritionFacts: {
+        calories: "22 kcal",
+        dietaryFiber: "1.6 g",
+        totalCarbohydrate: "2.7 g",
+        protein: "3.2 g",
+        fat: "0.6 g"
+      },
+      vitamins: {
+        "Vitamin A": "Present",
+        "Vitamin C": "Present",
+        "Vitamin K": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
+      }
+    },
+    {
+      name: "Brahmi",
+      scientificName: "Bacopa monnieri",
+      hsCode: "12119029",
+      origin: "Gujarat, Kerala, West Bengal, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Enhances memory and cognitive function",
+        "Reduces anxiety",
+        "Rich in antioxidants",
+        "Supports brain health"
+      ],
+      uses: [
+        "Ayurvedic formulations",
+        "Dietary supplements",
+        "Brain tonics",
+        "Herbal teas"
+      ],
+      nutritionFacts: {
+        calories: "50 kcal",
+        dietaryFiber: "1.8 g",
+        totalCarbohydrate: "8.5 g",
+        protein: "2.0 g",
+        fat: "0.5 g"
+      },
+      vitamins: {
+        "Vitamin C": "Present",
+        "Vitamin B1": "Present",
+        "Vitamin B2": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Zinc": "Present"
+      }
+    },
+    {
+      name: "Kalmegh",
+      scientificName: "Andrographis paniculata",
+      hsCode: "12119029",
+      origin: "Gujarat, Madhya Pradesh, Karnataka, Uttar Pradesh, India",
+      availability: "March to November",
+      packaging: "25kg / 50kg PP bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Liver detoxifier",
+        "Boosts immunity",
+        "Antiviral properties",
+        "Reduces inflammation",
+        "Helps in fever"
+      ],
+      uses: [
+        "Extracts",
+        "Capsules",
+        "Ayurvedic decoctions",
+        "Nutraceuticals"
+      ],
+      nutritionFacts: {
+        calories: "63 kcal",
+        dietaryFiber: "2.8 g",
+        totalCarbohydrate: "13.4 g",
+        protein: "2.9 g",
+        fat: "0.4 g"
+      },
+      vitamins: {
+        "Vitamin A": "Present",
+        "Vitamin C": "Present",
+        "Vitamin E": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Potassium": "Present",
+        "Iron": "Present"
+      }
+    },
+    {
+      name: "Arjuna",
+      scientificName: "Terminalia arjuna",
+      hsCode: "12119099",
+      origin: "Gujarat, Maharashtra, Madhya Pradesh, Chhattisgarh, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP or jute bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Supports cardiovascular health",
+        "Regulates blood pressure",
+        "Rich in antioxidants",
+        "Anti-inflammatory"
+      ],
+      uses: [
+        "Capsules",
+        "Powders",
+        "Tea blends",
+        "Ayurvedic formulations"
+      ],
+      nutritionFacts: {
+        calories: "52 kcal",
+        dietaryFiber: "3.2 g",
+        totalCarbohydrate: "10.4 g",
+        protein: "1.8 g",
+        fat: "0.3 g"
+      },
+      vitamins: {
+        "Vitamin B Complex": "Present",
+        "Vitamin E": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Magnesium": "Present",
+        "Zinc": "Present"
+      }
+    },
+    {
+      name: "Safed Musli",
+      scientificName: "Chlorophytum borivilianum",
+      hsCode: "12119099",
+      origin: "Gujarat, Madhya Pradesh, Rajasthan, Maharashtra, India",
+      availability: "May to December",
+      packaging: "25kg / 50kg fiber drum or vacuum pack",
+      shelfLife: "18–24 months",
+      healthBenefits: [
+        "Acts as a natural aphrodisiac",
+        "Boosts vitality and strength",
+        "Enhances stamina",
+        "Improves immunity"
+      ],
+      uses: [
+        "Capsules",
+        "Powders",
+        "Health supplements",
+        "Herbal energy drinks"
+      ],
+      nutritionFacts: {
+        calories: "78 kcal",
+        dietaryFiber: "4.5 g",
+        totalCarbohydrate: "16 g",
+        protein: "4.2 g",
+        fat: "0.6 g"
+      },
+      vitamins: {
+        "Vitamin B1": "Present",
+        "Vitamin B2": "Present",
+        "Vitamin C": "Present"
+      },
+      minerals: {
+        "Potassium": "Present",
+        "Magnesium": "Present",
+        "Calcium": "Present"
       }
     },
     {
       name: "Senna Leaves",
       scientificName: "Cassia angustifolia",
+      hsCode: "12119029",
+      origin: "Gujarat, Rajasthan, Tamil Nadu, Andhra Pradesh, India",
+      availability: "April to December",
+      packaging: "25kg / 50kg PP Bags, Paper Bags, or Bale Packing",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Natural laxative",
+        "Relieves constipation",
+        "Detoxifies the body",
+        "Aids in weight loss"
+      ],
+      uses: [
+        "Herbal teas",
+        "Capsules",
+        "Powders",
+        "Ayurvedic laxatives"
+      ],
       nutritionFacts: {
-        calories: "37 kcal",
-        dietaryFiber: "3.2 g",
-        totalCarbohydrate: "8.53 g",
-        protein: "2.10 g",
-        fat: "0.20 g",
+        calories: "44 kcal",
+        dietaryFiber: "6.5 g",
+        totalCarbohydrate: "10 g",
+        protein: "2.1 g",
+        fat: "0.4 g"
       },
       vitamins: {
-        "Vitamin C": "141.0 mg (170% DV)",
-        "Vitamin B1 (Thiamine)": "0.053 mg (5% DV)",
-        "Vitamin B2 (Riboflavin)": "0.074 mg (6% DV)",
-        "Vitamin B3 (Niacin)": "0.620 mg (4% DV)",
-        "Vitamin B5 (Pantothenic acid)": "0.794 mg (16% DV)",
-        "Vitamin B6": "0.120 mg (9% DV)",
-        "Folate (B9)": "44 μg (11% DV)"
+        "Vitamin A": "Present",
+        "Vitamin B6": "Present",
+        "Vitamin C": "Present"
       },
       minerals: {
-        "Calcium": "30 mg (3% DV)",
-        "Iron": "0.36 mg (3% DV)",
-        "Magnesium": "45 mg (13% DV)",
-        "Phosphorus": "50 mg (7% DV)",
-        "Potassium": "461 mg (10% DV)",
-        "Sodium": "42 mg (3% DV)",
-        "Zinc": "0.45 mg (5% DV)",
-        "Manganese": "0.259 mg (12% DV)"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
       }
     },
     {
-      name: "Tulsi Leaves",
-      scientificName: "Ocimum sanctum",
+      name: "Gokhru",
+      scientificName: "Tribulus terrestris",
+      hsCode: "12119094",
+      origin: "Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, India",
+      availability: "February to November",
+      packaging: "25kg / 50kg PP bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Supports urinary health",
+        "Boosts testosterone",
+        "Improves libido",
+        "Enhances physical performance"
+      ],
+      uses: [
+        "Powder",
+        "Capsules",
+        "Herbal supplements",
+        "Ayurvedic decoctions"
+      ],
       nutritionFacts: {
-        calories: "23 kcal",
-        dietaryFiber: "1.6 g",
-        totalCarbohydrate: "2.65 g",
-        protein: "3.15 g",
-        fat: "0.64 g",
+        calories: "65 kcal",
+        dietaryFiber: "4.2 g",
+        totalCarbohydrate: "14.5 g",
+        protein: "3.2 g",
+        fat: "0.4 g"
       },
       vitamins: {
-        "Vitamin A": "5275 IU (106% DV)",
-        "Vitamin C": "18.0 mg (30% DV)",
-        "Vitamin K": "414.8 μg (518% DV)",
-        "Vitamin B6": "0.155 mg (12% DV)",
-        "Folate (B9)": "68 μg (17% DV)"
+        "Vitamin A": "Present",
+        "Vitamin C": "Present"
       },
       minerals: {
-        "Calcium": "177 mg (18% DV)",
-        "Iron": "3.17 mg (40% DV)",
-        "Magnesium": "64 mg (16% DV)",
-        "Phosphorus": "56 mg (8% DV)",
-        "Potassium": "295 mg (8% DV)",
-        "Zinc": "0.81 mg (7% DV)"
+        "Iron": "Present",
+        "Magnesium": "Present",
+        "Potassium": "Present"
+      }
+    },
+    {
+      name: "Amla",
+      scientificName: "Phyllanthus emblica",
+      hsCode: "12119029",
+      origin: "Gujarat, Uttar Pradesh, Madhya Pradesh, Maharashtra, India",
+      availability: "September to March",
+      packaging: "25kg / 50kg PP or jute bags",
+      shelfLife: "12 to 18 months (dried)",
+      healthBenefits: [
+        "Powerful antioxidant",
+        "Rich source of Vitamin C",
+        "Boosts immunity",
+        "Good for hair and skin"
+      ],
+      uses: [
+        "Juices",
+        "Powder",
+        "Tablets",
+        "Hair oil",
+        "Cosmetics",
+        "Ayurvedic formulations"
+      ],
+      nutritionFacts: {
+        calories: "44 kcal",
+        dietaryFiber: "4.3 g",
+        totalCarbohydrate: "10.2 g",
+        protein: "0.9 g",
+        fat: "0.5 g"
+      },
+      vitamins: {
+        "Vitamin C": "Present",
+        "Vitamin B5": "Present",
+        "Vitamin B6": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Phosphorus": "Present",
+        "Iron": "Present"
+      }
+    },
+    {
+      name: "Shatavari",
+      scientificName: "Asparagus racemosus",
+      hsCode: "12119039",
+      origin: "Gujarat, Rajasthan, Maharashtra, Himachal Pradesh, India",
+      availability: "March to November",
+      packaging: "25kg / 50kg PP or paper bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Supports female reproductive health",
+        "Hormone balancing",
+        "Digestive tonic",
+        "Boosts lactation"
+      ],
+      uses: [
+        "Herbal powders",
+        "Capsules",
+        "Ayurvedic formulations",
+        "Wellness supplements"
+      ],
+      nutritionFacts: {
+        calories: "58 kcal",
+        dietaryFiber: "3.6 g",
+        totalCarbohydrate: "12 g",
+        protein: "4.4 g",
+        fat: "0.5 g"
+      },
+      vitamins: {
+        "Vitamin B6": "Present",
+        "Vitamin C": "Present",
+        "Vitamin E": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Magnesium": "Present",
+        "Iron": "Present"
       }
     },
     {
       name: "Giloy",
       scientificName: "Tinospora cordifolia",
+      hsCode: "12119029",
+      origin: "Gujarat, Maharashtra, Madhya Pradesh, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per buyer’s requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Boosts immunity",
+        "Treats chronic fevers",
+        "Anti-inflammatory",
+        "Detoxifies liver",
+        "Controls blood sugar levels"
+      ],
+      uses: [
+        "Ayurvedic formulations",
+        "Herbal teas",
+        "Dietary supplements",
+        "Immunity boosters"
+      ],
       nutritionFacts: {
-        calories: "~20-30 kcal (per 100g fresh stem)",
-        dietaryFiber: "2.2 g",
-        totalCarbohydrate: "4.6 g",
-        protein: "3.1 g",
-        fat: "0.1 g",
+        calories: "60 kcal",
+        dietaryFiber: "2.4 g",
+        totalCarbohydrate: "13 g",
+        protein: "2.5 g",
+        fat: "0.1 g"
       },
       vitamins: {
-        "Vitamin C": "5–8 mg",
-        "Vitamin A": "Trace amounts",
-        "Vitamin E": "Minimal",
-        "Folate (B9)": "Small amounts"
+        "Vitamin C": "Present",
+        "Vitamin B1": "Present",
+        "Vitamin B2": "Present"
       },
       minerals: {
-        "Calcium": "60-70 mg",
-        "Iron": "2.5-3.5 mg",
-        "Phosphorus": "20-25 mg",
-        "Zinc": "Trace"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Phosphorus": "Present"
+      }
+    },
+    {
+      name: "Ashwagandha",
+      scientificName: "Withania somnifera",
+      hsCode: "12119029",
+      origin: "Madhya Pradesh, Rajasthan, Gujarat, India",
+      availability: "Year-round",
+      packaging: "25kg / 50kg PP bags or as per buyer’s requirement",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Adaptogen",
+        "Reduces stress and anxiety",
+        "Boosts energy",
+        "Supports immune function",
+        "Enhances stamina"
+      ],
+      uses: [
+        "Ayurvedic formulations",
+        "Dietary supplements",
+        "Herbal teas",
+        "Health tonics"
+      ],
+      nutritionFacts: {
+        calories: "245 kcal",
+        dietaryFiber: "32 g",
+        totalCarbohydrate: "49 g",
+        protein: "3.7 g",
+        fat: "0.3 g"
+      },
+      vitamins: {
+        "Vitamin C": "Present",
+        "Vitamin E": "Present"
+      },
+      minerals: {
+        "Calcium": "Present",
+        "Iron": "Present"
       }
     }
   ],
@@ -163,219 +610,374 @@ export const productData = {
     {
       name: "Cumin Seeds",
       scientificName: "Cuminum cyminum",
+      hsCode: "09093129",
+      origin: "Gujarat & Rajasthan, India",
+      availability: "March to June",
+      packaging: "25kg / 50kg PP or Paper Bags",
+      shelfLife: "12-18 months",
+      healthBenefits: [
+        "Aids digestion",
+        "Rich in antioxidants",
+        "Supports weight loss",
+        "Boosts immunity",
+        "Controls blood sugar"
+      ],
+      uses: [
+        "Seasoning and flavoring",
+        "Spice blends (curry powders, garam masala)",
+        "Ayurvedic medicine"
+      ],
       nutritionFacts: {
-        calories: "~375 kcal",
-        dietaryFiber: "11 g",
+        calories: "375 kcal",
+        dietaryFiber: "10 g",
         totalCarbohydrate: "44 g",
         protein: "18 g",
-        fat: "22 g",
+        fat: "22 g"
       },
       vitamins: {
-        "Vitamin A": "64 IU",
-        "Vitamin C": "7.7 mg",
-        "Vitamin E": "3.3 mg",
-        "B-complex (B1, B6, B9)": "Moderate"
+        "B-complex": "Present",
+        "Vitamin C": "Present",
+        "Vitamin E": "Present"
       },
       minerals: {
-        "Iron": "66 mg",
-        "Calcium": "931 mg",
-        "Magnesium": "366 mg",
-        "Potassium": "1788 mg"
+        "Iron": "Present",
+        "Calcium": "Present",
+        "Magnesium": "Present"
       }
     },
     {
       name: "Coriander Seeds",
       scientificName: "Coriandrum sativum",
+      hsCode: "09092190",
+      origin: "Gujarat, Rajasthan, Madhya Pradesh",
+      availability: "March to May",
+      packaging: "25kg / 50kg PP Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "Promotes digestion",
+        "Lowers cholesterol",
+        "Detoxifies the body",
+        "Controls blood sugar",
+        "Anti-inflammatory"
+      ],
+      uses: [
+        "Culinary spice",
+        "Herbal tea and extracts",
+        "Spice mixes"
+      ],
       nutritionFacts: {
-        calories: "~298 kcal",
-        dietaryFiber: "41.9 g",
+        calories: "298 kcal",
+        dietaryFiber: "42 g",
         totalCarbohydrate: "55 g",
-        protein: "12.4 g",
-        fat: "17.8 g",
+        protein: "12 g",
+        fat: "17 g"
       },
       vitamins: {
-        "Vitamin C": "21 mg",
-        "Vitamin A": "Trace",
-        "B-complex (B1, B2, B3, B6)": "Present"
+        "Vitamin A": "Present",
+        "Vitamin C": "Present",
+        "Vitamin K": "Present"
       },
       minerals: {
-        "Calcium": "709 mg",
-        "Iron": "16.3 mg",
-        "Magnesium": "330 mg",
-        "Potassium": "1267 mg"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
       }
     },
     {
       name: "Fenugreek Seeds",
       scientificName: "Trigonella foenum-graecum",
+      hsCode: "09109912",
+      origin: "Rajasthan & Gujarat",
+      availability: "January to April",
+      packaging: "25kg / 50kg PP or Jute Bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Helps in diabetes management",
+        "Improves digestion",
+        "Promotes lactation",
+        "Reduces cholesterol",
+        "Enhances testosterone levels"
+      ],
+      uses: [
+        "Spices and seasoning",
+        "Herbal and pharmaceutical products",
+        "Nutraceuticals"
+      ],
       nutritionFacts: {
-        calories: "~323 kcal",
-        dietaryFiber: "24.6 g",
-        totalCarbohydrate: "58.4 g",
+        calories: "323 kcal",
+        dietaryFiber: "25 g",
+        totalCarbohydrate: "58 g",
         protein: "23 g",
-        fat: "6.4 g",
+        fat: "6.4 g"
       },
       vitamins: {
-        "Vitamin B6": "0.6 mg",
-        "Folate (B9)": "57 µg",
-        "Vitamin C": "3 mg"
+        "Vitamin A": "Present",
+        "Vitamin B6": "Present",
+        "Vitamin C": "Present"
       },
       minerals: {
-        "Iron": "33.5 mg",
-        "Calcium": "176 mg",
-        "Magnesium": "191 mg",
-        "Phosphorus": "296 mg"
+        "Iron": "Present",
+        "Manganese": "Present",
+        "Magnesium": "Present"
       }
     },
     {
-      name: "Turmeric",
+      name: "Turmeric (Whole/Dried Polished)",
       scientificName: "Curcuma longa",
+      hsCode: "09103030",
+      origin: "Maharashtra & Tamil Nadu",
+      availability: "January to June",
+      packaging: "25kg / 50kg Jute or PP Bags",
+      shelfLife: "24 months",
+      healthBenefits: [
+        "Anti-inflammatory & antioxidant",
+        "Boosts brain function",
+        "Improves skin health",
+        "Natural immunity booster",
+        "Aids in liver detox"
+      ],
+      uses: [
+        "Spice powders",
+        "Herbal medicines",
+        "Cosmetics and skincare",
+        "Ayurvedic & food supplements"
+      ],
       nutritionFacts: {
-        calories: "~354 kcal",
-        dietaryFiber: "21 g",
-        totalCarbohydrate: "65 g",
-        protein: "8 g",
-        fat: "9.9 g",
+        calories: "312 kcal",
+        dietaryFiber: "22 g",
+        totalCarbohydrate: "64 g",
+        protein: "9.7 g",
+        fat: "3.3 g"
       },
       vitamins: {
-        "Vitamin C": "25.9 mg",
-        "Vitamin B6": "1.8 mg",
-        "Folate (B9)": "39 µg"
+        "Vitamin C": "Present",
+        "Vitamin E": "Present",
+        "Vitamin K": "Present"
       },
       minerals: {
-        "Iron": "41.4 mg",
-        "Potassium": "2525 mg",
-        "Calcium": "183 mg",
-        "Magnesium": "193 mg"
+        "Iron": "Present",
+        "Manganese": "Present",
+        "Potassium": "Present"
       }
     },
     {
       name: "Dill Seeds",
       scientificName: "Anethum graveolens",
+      hsCode: "09109914",
+      origin: "Gujarat & Rajasthan",
+      availability: "March to May",
+      packaging: "25kg / 50kg PP Bags",
+      shelfLife: "12-18 months",
+      healthBenefits: [
+        "Supports digestion",
+        "Antibacterial and antifungal",
+        "Aids in insomnia",
+        "Rich in antioxidants",
+        "Promotes respiratory health"
+      ],
+      uses: [
+        "Pickling and seasoning",
+        "Herbal tea",
+        "Traditional medicine"
+      ],
       nutritionFacts: {
-        calories: "~305 kcal",
-        dietaryFiber: "20.8 g",
+        calories: "305 kcal",
+        dietaryFiber: "20 g",
         totalCarbohydrate: "55 g",
-        protein: "15.9 g",
-        fat: "14.5 g",
+        protein: "15 g",
+        fat: "14 g"
       },
       vitamins: {
-        "Vitamin C": "21 mg",
-        "Vitamin A": "295 IU",
-        "B-vitamins (B2, B6)": "Present"
+        "Vitamin A": "Present",
+        "Vitamin C": "Present"
       },
       minerals: {
-        "Calcium": "1516 mg",
-        "Iron": "16.3 mg",
-        "Manganese": "6.6 mg",
-        "Magnesium": "256 mg"
+        "Calcium": "Present",
+        "Iron": "Present"
       }
     }
   ],
   oilseeds: [
     {
-      name: "Sesame Seeds",
+      name: "Sesame Seeds (Natural & Hulled)",
       scientificName: "Sesamum indicum",
+      hsCode: "12074090",
+      origin: "Gujarat, Rajasthan, Uttar Pradesh",
+      availability: "October to March",
+      packaging: "25kg / 50kg PP or Paper Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "Boosts heart health",
+        "Excellent source of healthy fats",
+        "High in calcium and magnesium",
+        "Supports bone and skin health",
+        "Natural antioxidant"
+      ],
+      uses: [
+        "Oil extraction",
+        "Bakery and confectionery",
+        "Tahini paste",
+        "Snacks and seasoning"
+      ],
       nutritionFacts: {
-        calories: "~573 kcal",
+        calories: "573 kcal",
         dietaryFiber: "11.8 g",
-        totalCarbohydrate: "23.5 g",
+        totalCarbohydrate: "23 g",
         protein: "17 g",
-        fat: "49.7 g (rich in healthy polyunsaturated fats)",
+        fat: "49 g"
       },
       vitamins: {
-        "Vitamin B1 (Thiamine)": "0.8 mg",
-        "Vitamin B6": "0.8 mg",
-        "Folate (B9)": "97 µg",
-        "Vitamin E": "0.25 mg"
+        "Vitamin B1": "Present",
+        "Vitamin B3": "Present",
+        "Vitamin E": "Present"
       },
       minerals: {
-        "Calcium": "975 mg",
-        "Iron": "14.6 mg",
-        "Magnesium": "351 mg",
-        "Zinc": "7.8 mg",
-        "Phosphorus": "629 mg"
+        "Calcium": "Present",
+        "Iron": "Present",
+        "Magnesium": "Present"
       }
     },
     {
-      name: "Groundnut",
+      name: "Groundnut (Peanuts)",
       scientificName: "Arachis hypogaea",
+      hsCode: "12024290",
+      origin: "Gujarat, Andhra Pradesh",
+      availability: "November to April",
+      packaging: "25kg / 50kg PP or Jute Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "High in protein and healthy fats",
+        "Supports heart health",
+        "Energy booster",
+        "Rich in antioxidants",
+        "Aids in weight management"
+      ],
+      uses: [
+        "Oil extraction",
+        "Roasted snacks",
+        "Peanut butter production",
+        "Animal feed"
+      ],
       nutritionFacts: {
-        calories: "~567 kcal",
+        calories: "567 kcal",
         dietaryFiber: "8.5 g",
-        totalCarbohydrate: "16.1 g",
-        protein: "25.8 g",
-        fat: "49.2 g (rich in monounsaturated fats)",
+        totalCarbohydrate: "16 g",
+        protein: "25 g",
+        fat: "49 g"
       },
       vitamins: {
-        "Vitamin E": "8.3 mg",
-        "Niacin (B3)": "12 mg",
-        "Folate (B9)": "240 µg"
+        "Vitamin E": "Present",
+        "Vitamin B3": "Present",
+        "Vitamin B6": "Present"
       },
       minerals: {
-        "Magnesium": "168 mg",
-        "Phosphorus": "376 mg",
-        "Potassium": "705 mg",
-        "Zinc": "3.3 mg"
-      }
-    },
-    {
-      name: "Niger Seeds",
-      scientificName: "Guizotia abyssinica",
-      nutritionFacts: {
-        calories: "~515 kcal",
-        dietaryFiber: "11 g",
-        totalCarbohydrate: "35 g",
-        protein: "19 g",
-        fat: "40 g (mainly polyunsaturated, especially linoleic acid)",
-      },
-      vitamins: {
-        "Vitamin C": "1.5 mg",
-        "B-complex": "Moderate levels"
-      },
-      minerals: {
-        "Iron": "5 mg",
-        "Calcium": "120 mg",
-        "Magnesium": "135 mg"
-      }
-    },
-    {
-      name: "Mustard Seeds",
-      scientificName: "Brassica spp.",
-      nutritionFacts: {
-        calories: "~508 kcal",
-        dietaryFiber: "12.2 g",
-        totalCarbohydrate: "28 g",
-        protein: "26 g",
-        fat: "36 g (high in omega-3 fatty acids)",
-      },
-      vitamins: {
-        "Vitamin A": "Trace",
-        "Vitamin C": "7 mg",
-        "B-complex": "Rich in B1, B6, B9"
-      },
-      minerals: {
-        "Calcium": "266 mg",
-        "Iron": "9.2 mg",
-        "Magnesium": "370 mg",
-        "Potassium": "828 mg"
+        "Magnesium": "Present",
+        "Phosphorus": "Present",
+        "Zinc": "Present"
       }
     },
     {
       name: "Castor Seeds",
       scientificName: "Ricinus communis",
+      hsCode: "12073090",
+      origin: "Gujarat",
+      availability: "December to March",
+      packaging: "25kg / 50kg PP Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "Rich in ricinoleic acid (used in castor oil)",
+        "Natural anti-inflammatory",
+        "Laxative and detoxifying agent",
+        "Supports hair and skin health"
+      ],
+      uses: [
+        "Industrial oil extraction",
+        "Pharmaceuticals",
+        "Lubricants and cosmetics"
+      ],
       nutritionFacts: {
-        calories: "~500-600 kcal (approx.)",
-        dietaryFiber: "~6 g",
-        totalCarbohydrate: "~15 g",
-        protein: "~18 g",
-        fat: "~50-55 g (mostly ricinoleic acid, used in pharma & cosmetics)",
+        calories: "500+ kcal",
+        dietaryFiber: "Data not specified",
+        totalCarbohydrate: "Data not specified",
+        protein: "Present",
+        fat: "High in unsaturated fatty acids"
       },
+      vitamins: {},
       minerals: {
-        "Trace minerals": "Zinc, Magnesium"
+        "Used for extraction": "Yes"
+      }
+    },
+    {
+      name: "Niger Seeds",
+      scientificName: "Guizotia abyssinica",
+      hsCode: "12079990",
+      origin: "Gujarat & Madhya Pradesh",
+      availability: "January to March",
+      packaging: "25kg / 50kg PP Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "Rich in linoleic acid",
+        "Helps maintain cholesterol levels",
+        "Source of antioxidants",
+        "Supports immune health"
+      ],
+      uses: [
+        "Oil extraction",
+        "Bird feed",
+        "Traditional cooking oil"
+      ],
+      nutritionFacts: {
+        calories: "515 kcal",
+        dietaryFiber: "10 g",
+        totalCarbohydrate: "34 g",
+        protein: "20 g",
+        fat: "42 g"
       },
       vitamins: {
-        "Ricinoleic acid": "90% of oil content"
+        "B-complex": "Present"
+      },
+      minerals: {
+        "Potassium": "Present",
+        "Calcium": "Present",
+        "Iron": "Present"
+      }
+    },
+    {
+      name: "Mustard Seeds (Black & Yellow)",
+      scientificName: "Brassica nigra / Brassica alba",
+      hsCode: "12075090",
+      origin: "Rajasthan & Gujarat",
+      availability: "March to May",
+      packaging: "25kg / 50kg PP or Jute Bags",
+      shelfLife: "12 months",
+      healthBenefits: [
+        "Stimulates digestion",
+        "Natural anti-inflammatory",
+        "Antibacterial and antifungal",
+        "Good for respiratory health"
+      ],
+      uses: [
+        "Oil extraction",
+        "Pickling",
+        "Spice and seasoning",
+        "Ayurvedic medicine"
+      ],
+      nutritionFacts: {
+        calories: "508 kcal",
+        dietaryFiber: "12 g",
+        totalCarbohydrate: "28 g",
+        protein: "26 g",
+        fat: "36 g"
+      },
+      vitamins: {
+        "Vitamin A": "Present",
+        "Vitamin C": "Present",
+        "Vitamin K": "Present"
+      },
+      minerals: {
+        "Selenium": "Present",
+        "Magnesium": "Present",
+        "Manganese": "Present"
       }
     }
   ]
@@ -387,16 +989,25 @@ export const productUrltoNameMapping: Record<string, string> = {
   "spices": "Spices",
   "oilseeds": "Oil Seeds",
 
-  "moringa-leaves": "Moringa Leaves",
+  "mulethi": "Mulethi",
+  "neem": "Neem",
   "ashwagandha": "Ashwagandha",
-  "senna-leaves": "Senna Leaves",
-  "tulsi-leaves": "Tulsi Leaves",
+  "moringa": "Moringa",
+  "turmeric": "Turmeric",
   "giloy": "Giloy",
+  "tulsi": "Tulsi",
+  "brahmi": "Brahmi",
+  "shatavari": "Shatavari",
+  "kalmegh": "Kalmegh",
+  "amla": "Amla",
+  "arjuna": "Arjuna",
+  "gokhru": "Gokhru",
+  "safed-musli": "Safed Musli",
+  "senna-leaves": "Senna Leaves",
 
   "cumin-seeds": "Cumin Seeds",
   "coriander-seeds": "Coriander Seeds",
   "fenugreek-seeds": "Fenugreek Seeds",
-  "turmeric": "Turmeric",
   "dill-seeds": "Dill Seeds",
 
   "sesame-seeds": "Sesame Seeds",
@@ -407,16 +1018,25 @@ export const productUrltoNameMapping: Record<string, string> = {
 }
 
 export const productNametoUrlMapping: Record<string, string> = {
-  "Moringa Leaves": "moringa-leaves",
+  "Mulethi": "mulethi",
+  "Neem": "neem",
   "Ashwagandha": "ashwagandha",
-  "Senna Leaves": "senna-leaves",
-  "Tulsi Leaves": "tulsi-leaves",
+  "Moringa": "moringa",
+  "Turmeric": "turmeric",
   "Giloy": "giloy",
+  "Tulsi": "tulsi",
+  "Brahmi": "brahmi",
+  "Shatavari": "shatavari",
+  "Kalmegh": "kalmegh",
+  "Amla": "amla",
+  "Arjuna": "arjuna",
+  "Gokhru": "gokhru",
+  "Safed Musli": "safed-musli",
+  "Senna Leaves": "senna-leaves",
 
   "Cumin Seeds": "cumin-seeds",
   "Coriander Seeds": "coriander-seeds",
   "Fenugreek Seeds": "fenugreek-seeds",
-  "Turmeric": "turmeric",
   "Dill Seeds": "dill-seeds",
 
   "Sesame Seeds": "sesame-seeds",

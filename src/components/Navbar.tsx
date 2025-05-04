@@ -11,7 +11,7 @@ const Navbar = () => {
   const [scrolling, setScrolling] = useState<boolean>(false);
   const path = usePathname();
 
-  useEffect(()=>{
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setScrolling(true);
@@ -21,7 +21,7 @@ const Navbar = () => {
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  },[])
+  }, []);
 
   const NavData = [
     { name: "Home", link: "/" },
@@ -33,19 +33,32 @@ const Navbar = () => {
 
   const toggleMenu = () => setMenuToggle((prevState) => !prevState);
 
-  const isCurrentPath = (link: string) =>
-    path === link ? "text-green-400" : "";
+  const isCurrentPath = (link: string) => {
+    if (link === "/") return path === "/" ? "text-green-400" : "";
+    return path.startsWith(link) ? "text-green-400" : "";
+  };
 
   return (
-    <nav className={`sticky top-0 left-0 w-full z-40 backdrop-blur-xl text-gray-500 shadow duration-300 ease-in-out ${scrolling && 'transform transition-transform duration-200 ease-in-out -translate-y-12'}`}>
+    <nav
+      className={`sticky top-0 left-0 w-full z-40 backdrop-blur-xl text-gray-500 shadow duration-300 ease-in-out ${
+        scrolling &&
+        "transform transition-transform duration-200 ease-in-out -translate-y-12"
+      }`}
+    >
       <div
-        className={`w-full flex justify-between items-center pr-5 mx:px-5 scroll-py-24 md:px-10 lg:px-20 my-5 ${scrolling ? 'mt-12 mb-0' : ''}`}
+        className={`w-full flex justify-between items-center pr-5 mx:px-5 scroll-py-24 md:px-10 lg:px-20 my-5 ${
+          scrolling ? "mt-12 mb-0" : ""
+        }`}
       >
         <div className={`drop-shadow-xl`}>
-          <Link href="/"> 
+          <Link href="/">
             <Image
               // className={` drop-shadow-sm noDrag w-32 h-15 md:w-60 md:h-24 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
-              className={` drop-shadow-sm noDrag w-16 h-8 md:w-24 md:h-20 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
+              className={` drop-shadow-sm noDrag w-16 h-12 md:w-24 md:h-20 object-cover ${
+                scrolling
+                  ? "transform transition-transform scale-[0.8] duration-200 ease-in-out my-0 my-2"
+                  : ""
+              }`}
               src="/icon.png"
               width={10000}
               height={10000}
@@ -60,7 +73,11 @@ const Navbar = () => {
           {NavData.map((data, ind) => (
             <li
               key={ind}
-              className={`cursor-pointer font-main tracking-widest text-base ${scrolling ? 'transform transition-transform scale-[0.9] duration-200 ease-in-out -my-2' : ''} lg:text-lg list-none outline-none hover:text-green-300 duration-150 ${isCurrentPath(
+              className={`cursor-pointer font-main tracking-widest text-base ${
+                scrolling
+                  ? "transform transition-transform scale-[0.9] duration-200 ease-in-out -my-2"
+                  : ""
+              } lg:text-lg list-none outline-none hover:text-green-300 duration-150 ${isCurrentPath(
                 data.link
               )}`}
             >

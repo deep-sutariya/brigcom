@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 
@@ -5,13 +6,14 @@ interface ImageCardProps {
   imageUrl: string;
   title: string;
   link: string;
+  className?: string;
 }
 
-const ProductCard: React.FC<ImageCardProps> = ({ imageUrl, title, link }) => {
+const ProductCard: React.FC<ImageCardProps> = ({ imageUrl, title, link, className }) => {
   return (
     <Link
       href={link}
-      className=" w-2/6 rounded-lg overflow-hidden shadow-lg bg-white"
+      className={cn("rounded-lg overflow-hidden shadow-lg bg-white", className)}
     >
       <img className="w-full h-48 object-cover" src={imageUrl} alt={title} />
       <div className="p-4">
