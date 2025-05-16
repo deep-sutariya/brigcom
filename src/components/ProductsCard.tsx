@@ -17,7 +17,7 @@ const ProductCard: React.FC<ImageCardProps> = ({ imageUrl, title, link, classNam
     >
       <img className="w-full h-48 object-cover" src={imageUrl} alt={title} />
       <div className="p-4">
-        <h2 className="text-lg font-main text-gray-500 font-semibold mb-2 text-center">
+        <h2 className="md:text-lg font-main text-gray-500 font-semibold mb-2 text-center">
           {title}
         </h2>
       </div>
