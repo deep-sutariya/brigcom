@@ -33,7 +33,7 @@ const getIcon = (type: string) => {
 
 export default function FooterItems({ heading, details, contact }: Props) {
   return (
-    <div className="text-[#f0e9d3] flex flex-col gap-y-2 sm:gap-y-5">
+    <div className="text-gray-300 flex flex-col gap-y-2 sm:gap-y-5">
       <div className=" font-details font-semibold tracking-wide text-xl md:text-2xl text-gray-100">
         {heading}
       </div>

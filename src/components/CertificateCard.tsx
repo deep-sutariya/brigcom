@@ -13,7 +13,7 @@ const CertificateCard: React.FC<CertificateCardType> = ({ imageUrl, title, link,
   return (
     <Link
       href={link}
-      className={cn("overflow-hidden shadow-lg bg-white", className)}
+      className={cn("overflow-hidden shadow-lg bg-white rounded-xs", className)}
     >
       <img className="w-full h-56 md:h-64 object-fill" src={imageUrl} alt={title} />
       <div className="p-4">

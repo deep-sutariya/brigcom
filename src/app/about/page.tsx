@@ -1,40 +1,50 @@
+import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
+
 export default function AboutUs() {
   return (
     <main className="text-gray-800 ">
-      <section className=" py-24 px-6 md:px-12 lg:px-36 text-center flex gap-x-10 items-center justify-center">
-        <div className="flex-[0.5] w-full flex justify-center items-center">
+      <section className=" w-full py-20 md:py-24 px-6 md:px-12 lg:px-36 text-center flex flex-col sm:flex-row gap-x-10 items-center justify-center">
+        <div className="hidden sm:visible md:w-[50%] sm:flex justify-center items-center">
           <img
-            className="h-72 object-contain"
+            className=" h-36 md:h-48 lg:h-72 object-contain"
             src="/8.jpg"
             alt="About us main"
           />
         </div>
 
-        <div className="flex-[0.5]">
-          <h1 className="text-4xl font-bold mb-6 text-gray-700 text-left">
-            WELCOME TO BRIGCOM
-          </h1>
-          <p className="max-w-2xl mx-auto text-base leading-relaxed text-gray-600 text-left font-details">
-            We specialise in sourcing and delivering premium-quality herbs,
-            spices, and oilseeds from India, with an unwavering commitment to
-            purity, traceability, and ethical sourcing. Backed by years of
-            expertise and deep-rooted connections across India's agricultural
-            heartlands, our mission goes beyond just supply. At Brigcom, we
-            focus on consistency, transparency, and long-term relationships,
-            ensuring that every shipment meets the highest global standards and
-            every interaction reflects our dedication to trust and service.
-          </p>
+        <div className=" sm:w-[70%] md:w-[50%]">
+          <div className=" flex gap-x-2 text-2xl lg:text-4xl font-bold mb-8 sm:mb-6 text-gray-600 text-left">
+            <h1>
+              WELCOME TO{" "}
+              <span className="tracking-wide text-[#169EBE]/90">BRIGCOM</span>
+            </h1>
+          </div>
+          <div className=" flex flex-col gap-y-4 mx-auto leading-relaxed text-gray-500 text-left font-heading text-sm md:text-sm lg:text-base">
+            <p>
+              We specialise in sourcing and delivering premium-quality herbs,
+              spices, and oilseeds from India, with an unwavering commitment to
+              purity, traceability, and ethical sourcing. Backed by years of
+              expertise and deep-rooted connections across India's agricultural
+              heartlands, our mission goes beyond just supply.
+            </p>
+            <p>
+              At Brigcom, we focus on consistency, transparency, and long-term
+              relationships, ensuring that every shipment meets the highest
+              global standards and every interaction reflects our dedication to
+              trust and service.
+            </p>
+          </div>
         </div>
       </section>
 
-      <section className="py-16 px-6 md:px-12 lg:px-32 bg-gradient-to-tl from-[#9ee9fa] to-[#9de8f9] relative">
-        <h2 className=" absolute top-8 left-32 text-7xl font-extrabold mb-10 text-center text-blue-100 uppercase font-stretch-110%">
+      <section className=" pt-4 pb-12 sm:py-16 px-3 lg:px-12 xl:px-32  bg-[#9ee9fa] relative">
+        <h2 className=" absolute top-8 lg:left-12 xl:left-32 text-3xl sm:text-5xl lg:text-7xl font-extrabold mb-10 text-center text-blue-100 uppercase font-stretch-110%">
           What We Offer?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-28">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-10 mt-24 md:mt-20 lg:mt-28">
           {[
             {
-              title: "Bulk Quantities with Consistent Supply",
+              title: "Quantity with Consistent Supply",
               description:
                 "Timely, stable deliveries for businesses requiring dependable volumes year-round.",
             },
@@ -51,21 +61,34 @@ export default function AboutUs() {
             {
               title: "Customised Export Solutions",
               description:
-                "Tailored packaging, labeling, documentation, and certifications for diverse global needs.",
+                "Tailored packaging, documentation, labeling and certifications for diverse global needs.",
             },
           ].map((item, idx) => (
             <div
               key={idx}
-              className={`relative group bg-gradient-to-tr from-white via-white to-gray-50 p-8 rounded-2xl overflow-hidden shadow-xl border border-gray-200 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 animate-fade-up`}
+              className={`relative w-[90%] sm:w-full bg-gradient-to-tr from-white via-white to-gray-100 p-5 md:p-8 overflow-hidden hover:-translate-y-1 transition-all duration-500 animate-fade-up items-end sm:m-auto sm:rounded-xl ${idx%2 ? 'ml-auto rounded-b-3xl rounded-tr-3xl' : 'mr-auto rounded-t-3xl rounded-bl-3xl'}`}
               style={{ animationDelay: `${idx * 150}ms` }}
             >
-              <div className="absolute -top-10 -right-10 w-40 h-40 bg-[#169EBE]/10 rotate-45 rounded-2xl z-0 animate-spin-slow"></div>
+              <div className="absolute -top-15 lg:-top-10 -right-20 lg:-right-10 w-40 h-40 bg-[#169EBE]/10 rotate-45 rounded-2xl z-0 animate-spin-slow"></div>
+              {
+                idx%2?
+                <div className="absolute top-2 -left-4 py-1 px-6 -rotate-45 bg-[#9ee9fa] z-0 sm:hidden"></div>
+                :
+                <div className="absolute bottom-2 -right-4 py-1 px-6 -rotate-45 bg-[#9ee9fa] z-0 sm:hidden"></div>
+              }
+              {/* {
+                idx%2?
+                <div className="absolute top-0 left-0 border-l-[20px] border-l-[#9ee9fa] border-b-[20px] border-b-transparent z-0"></div>
+                :
+                <div className="absolute bottom-0 right-0 border-r-[20px] border-r-[#9ee9fa] border-t-[20px] border-t-transparent z-0"></div>
+              } */}
+
 
               <div className="relative z-10">
-                <h3 className="text-2xl font-semibold text-gray-700 mb-3 font-main">
+                <h3 className=" sm:text-xl lg:text-2xl font-semibold text-gray-700 mb-3 font-main tracking-tight">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed font-details">
+                <p className="text-gray-600 leading-relaxed font-details text-sm sm:text-base tracking-tight sm:tracking-normal">
                   {item.description}
                 </p>
               </div>
@@ -79,8 +102,8 @@ export default function AboutUs() {
 
         <h2 className="text-4xl md:text-5xl font-main font-extrabold text-center text-gray-700 mb-20 relative z-10 leading-tight tracking-wide animate-fadeIn">
           What Our Buyers Value
-          <span className="block text-[#169EBE] text-lg font-details font-light mt-3 tracking-normal">
-            ( And We Deliver )
+          <span className="block text-[#169EBE]/50 text-lg font-details mt-3 tracking-normal">
+            [ And We Deliver ]
           </span>
         </h2>
 
@@ -101,7 +124,7 @@ export default function AboutUs() {
           animate-fadeInCard delay-[${idx * 200}ms]
         `}
             >
-              <div className="absolute -left-3 -top-5 h-10 w-10 rounded-full transition-all duration-300 text-7xl text-gray-500 font-details">
+              <div className="absolute -left-3 -top-5 h-10 w-10 rounded-full transition-all duration-300 text-7xl text-gray-500/50 font-details">
                 "
               </div>
               <p className="text-gray-800 text-lg leading-relaxed tracking-wide font-details">
@@ -119,18 +142,28 @@ export default function AboutUs() {
         <div className="absolute bottom-[-5%] right-[-10%] w-[250px] h-[250px] bg-[#3bbfdd] opacity-30 rounded-full animate-float2"></div>
 
         <div className="max-w-4xl mx-auto text-left relative z-10">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-10 animate-fadeInUp font-heading">
+          <h2 className="text-4xl md:text-5xl font-semibold mb-10 animate-fadeInUp font-heading text-gray-50">
             Our Promise
           </h2>
-          <p className="text-lg leading-relaxed mb-6 animate-fadeInUp animate-delay-200 font-details">
-            {`=> At Brigcom, trust isn’t a strategy — it’s our foundation. We don’t
+          <div className=" flex gap-x-3 text-lg leading-relaxed mb-6 animate-fadeInUp animate-delay-200 font-details">
+            <div className=" pt-1">
+              <VscDebugBreakpointDataUnverified width={300} height={300} />
+            </div>
+            <p>
+              {`At Brigcom, trust isn't a strategy it's our foundation. We don’t
             just supply products; we build long-term partnerships grounded in
             consistency, transparency, and responsiveness.`}
-          </p>
-          <p className="text-lg leading-relaxed animate-fadeInUp animate-delay-400 font-details">
-            {`=> Let us be your eyes and ears on the ground in India — ensuring every
+            </p>
+          </div>
+          <div className=" flex gap-x-3 text-lg leading-relaxed animate-fadeInUp animate-delay-400 font-details">
+            <div className=" pt-1">
+              <VscDebugBreakpointDataUnverified width={300} height={300} />
+            </div>
+            <p>
+              {`Let us be your eyes and ears on the ground in India ensuring every
             deal is smooth, secure, and satisfying.`}
-          </p>
+            </p>
+          </div>
         </div>
       </section>
     </main>

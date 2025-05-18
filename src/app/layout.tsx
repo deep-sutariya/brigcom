@@ -13,8 +13,8 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="bg-detail">
-        <main className=" absolute flex flex-col min-h-screen ">
+      <body className="bg-detail scroll-smooth ">
+        <main className="relative flex flex-col min-h-screen ">
           <Navbar />
           <div className="flex-1">{children}</div>
           <Footer />

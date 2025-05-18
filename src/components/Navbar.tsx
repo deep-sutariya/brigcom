@@ -34,8 +34,8 @@ const Navbar = () => {
   const toggleMenu = () => setMenuToggle((prevState) => !prevState);
 
   const isCurrentPath = (link: string) => {
-    if (link === "/") return path === "/" ? "text-green-400" : "";
-    return path.startsWith(link) ? "text-green-400" : "";
+    if (link === "/") return path === "/" ? "text-[#169EBE]" : "";
+    return path.startsWith(link) ? "text-[#169EBE]" : "";
   };
 
   return (
@@ -47,7 +47,7 @@ const Navbar = () => {
     >
       <div
         className={`w-full flex justify-between items-center pr-5 mx:px-5 scroll-py-24 md:px-10 lg:px-20 my-5 ${
-          scrolling ? "mt-12 mb-0" : ""
+          scrolling ? "mt-12 mb-0 " : ""
         }`}
       >
         <div className={`drop-shadow-xl`}>
@@ -56,7 +56,7 @@ const Navbar = () => {
               // className={` drop-shadow-sm noDrag w-32 h-15 md:w-60 md:h-24 object-cover ${scrolling ? 'transform transition-transform scale-[0.8] duration-200 ease-in-out my-0' : ''}`}
               className={` drop-shadow-sm noDrag w-16 h-12 md:w-24 md:h-20 object-cover ${
                 scrolling
-                  ? "transform transition-transform scale-[0.8] duration-200 ease-in-out my-0 my-2"
+                  ? "transform transition-transform scale-[0.8] duration-200 ease-in-out my-2"
                   : ""
               }`}
               src="/icon.png"
@@ -86,7 +86,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="md:hidden z-0">
+        <div className="md:hidden z-50">
           {menuToggle ? (
             <X className="w-8 h-8 cursor-pointer" onClick={toggleMenu} />
           ) : (
@@ -98,9 +98,9 @@ const Navbar = () => {
       {menuToggle && (
         <div
           id="navbar"
-          className={`md:hidden animate-leftright z-40 drop-shadow-sm fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-[100vh] flex flex-col items-center border-b-2 pb-5 bg-gray-50`}
+          className={`md:hidden animate-leftright z-40 drop-shadow-sm fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-[100vh] flex flex-col items-center border-b-2 pb-5 backdrop-blur-3xl translate-y-0`}
         >
-          <div className={`mt-7 sm:mt-14 px-10 pt-8 h-screen`}>
+          <div className={`mt-7 sm:mt-14 px-10 pt-8 h-screen ${scrolling && "mt-16"}`}>
             <div className="flex flex-col w-full items-center justify-between h-[83dvh]">
               <ul className="flex gap-y-5 flex-col mt-10">
                 {NavData.map((data, ind) => (
