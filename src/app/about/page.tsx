@@ -66,7 +66,7 @@ export default function AboutUs() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className={`relative w-[90%] sm:w-full bg-gradient-to-tr from-white via-white to-gray-100 p-5 md:p-8 overflow-hidden hover:-translate-y-1 transition-all duration-500 animate-fade-up items-end sm:m-auto sm:rounded-xl ${idx%2 ? 'ml-auto rounded-b-3xl rounded-tr-3xl' : 'mr-auto rounded-t-3xl rounded-bl-3xl'}`}
+              className={`relative w-[90%] sm:w-full bg-gradient-to-tr from-white via-white to-gray-100 p-5 md:p-8 overflow-hidden hover:-translate-y-1 transition-all duration-500 animate-fade-up items-end sm:m-auto sm:rounded-xl ${idx%2 ? 'ml-auto rounded-b-2xl rounded-tr-2xl' : 'mr-auto rounded-t-2xl rounded-bl-2xl'}`}
               style={{ animationDelay: `${idx * 150}ms` }}
             >
               <div className="absolute -top-15 lg:-top-10 -right-20 lg:-right-10 w-40 h-40 bg-[#169EBE]/10 rotate-45 rounded-2xl z-0 animate-spin-slow"></div>
@@ -97,17 +97,17 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="relative bg-[#F5F2EF] py-20 px-6 md:px-16 lg:px-24 overflow-hidden">
+      <section className="relative bg-[#F5F2EF] py-12 md:py-20 px-6 md:px-16 lg:px-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#FDFBFA] via-[#F5F2EF] to-[#F2EFEB] opacity-40 z-0 animate-bg-gradient"></div>
 
-        <h2 className="text-4xl md:text-5xl font-main font-extrabold text-center text-gray-700 mb-20 relative z-10 leading-tight tracking-wide animate-fadeIn">
+        <h2 className="text-2xl lg:text-5xl font-main font-extrabold text-center text-gray-700 mb-14 md:mb-20 relative z-10 leading-tight tracking-wide animate-fadeIn">
           What Our Buyers Value
-          <span className="block text-[#169EBE]/50 text-lg font-details mt-3 tracking-normal">
+          <span className="block text-[#169EBE]/50 text-base md:text-lg font-details mt-3 tracking-normal">
             [ And We Deliver ]
           </span>
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 relative z-10 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10 relative z-10 ">
           {[
             "Product purity & food safety compliance",
             "Moisture-controlled, contamination-free packaging",
@@ -119,15 +119,15 @@ export default function AboutUs() {
             <div
               key={idx}
               className={`
-           p-8 rounded-xl bg-white shadow-xl hover:shadow-2xl 
+           p-5 md:p-8 rounded-lg bg-white shadow-xl hover:shadow-2xl 
           hover:scale-105 transition-all duration-500 ease-in-out
           animate-fadeInCard delay-[${idx * 200}ms]
         `}
             >
-              <div className="absolute -left-3 -top-5 h-10 w-10 rounded-full transition-all duration-300 text-7xl text-gray-500/50 font-details">
+              <div className="absolute -top-3 -left-2 md:-left-3 md:-top-5 h-7 w-7 md:h-10 md:w-10 rounded-full transition-all duration-300 text-5xl md:text-7xl text-gray-500/50 font-details">
                 "
               </div>
-              <p className="text-gray-800 text-lg leading-relaxed tracking-wide font-details">
+              <p className="text-gray-600 text-xs md:text-lg leading-relaxed tracking-wide font-details">
                 {text}
               </p>
             </div>
@@ -135,27 +135,27 @@ export default function AboutUs() {
         </div>
       </section>
 
-      <section className="relative py-20 px-6 md:px-12 lg:px-24 bg-[#3bbfdd] text-white overflow-hidden">
+      <section className="relative py-12 md:py-20 px-6 md:px-12 lg:px-24 bg-[#3bbfdd] text-white overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#3bbfdd] to-[#9ef4fa] opacity-60 z-0 animate-bgGradient"></div>
 
         <div className="absolute top-[-10%] left-[-20%] w-[200px] h-[200px] bg-[#9ef4fa] opacity-20 rounded-full animate-float1"></div>
         <div className="absolute bottom-[-5%] right-[-10%] w-[250px] h-[250px] bg-[#3bbfdd] opacity-30 rounded-full animate-float2"></div>
 
         <div className="max-w-4xl mx-auto text-left relative z-10">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-10 animate-fadeInUp font-heading text-gray-50">
+          <h2 className="text-2xl md:text-5xl font-semibold mb-7 md:mb-10 animate-fadeInUp font-heading text-gray-50">
             Our Promise
           </h2>
-          <div className=" flex gap-x-3 text-lg leading-relaxed mb-6 animate-fadeInUp animate-delay-200 font-details">
+          <div className=" flex gap-x-3 text-xs md:text-lg leading-relaxed mb-4 md:mb-6 animate-fadeInUp animate-delay-200 font-details">
             <div className=" pt-1">
               <VscDebugBreakpointDataUnverified width={300} height={300} />
             </div>
             <p>
-              {`At Brigcom, trust isn't a strategy it's our foundation. We don’t
-            just supply products; we build long-term partnerships grounded in
+              {`At Brigcom, trust isn't a strategy it's our foundation. We don't
+            just supply products, we build long-term partnerships grounded in
             consistency, transparency, and responsiveness.`}
             </p>
           </div>
-          <div className=" flex gap-x-3 text-lg leading-relaxed animate-fadeInUp animate-delay-400 font-details">
+          <div className=" flex gap-x-3 text-xs md:text-lg leading-relaxed animate-fadeInUp animate-delay-400 font-details">
             <div className=" pt-1">
               <VscDebugBreakpointDataUnverified width={300} height={300} />
             </div>
