@@ -1,8 +1,27 @@
+import Link from "next/link";
 import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
 
 export default function AboutUs() {
   return (
     <main className="text-gray-800 ">
+      <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+        <img
+          src="background/about.jpg"
+          alt="About Us Banner"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute z-30 inset-0 bg-black/40 flex flex-col justify-center px-6 md:px-48 text-white ">
+          <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">
+            About Us
+          </h1>
+          <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
+            <Link href="/">HOME</Link>
+            <span>/</span>
+            <h3 className=" uppercase">About Us</h3>
+          </div>
+        </div>
+      </div>
+
       <section className=" w-full py-20 md:py-24 px-6 md:px-12 lg:px-36 text-center flex flex-col sm:flex-row gap-x-10 items-center justify-center">
         <div className="hidden sm:visible md:w-[50%] sm:flex justify-center items-center">
           <img
@@ -66,23 +85,25 @@ export default function AboutUs() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className={`relative w-[90%] sm:w-full bg-gradient-to-tr from-white via-white to-gray-100 p-5 md:p-8 overflow-hidden hover:-translate-y-1 transition-all duration-500 animate-fade-up items-end sm:m-auto sm:rounded-xl ${idx%2 ? 'ml-auto rounded-b-2xl rounded-tr-2xl' : 'mr-auto rounded-t-2xl rounded-bl-2xl'}`}
+              className={`relative w-[90%] sm:w-full bg-gradient-to-tr from-white via-white to-gray-100 p-5 md:p-8 overflow-hidden hover:-translate-y-1 transition-all duration-500 animate-fade-up items-end sm:m-auto sm:rounded-xl ${
+                idx % 2
+                  ? "ml-auto rounded-b-2xl rounded-tr-2xl"
+                  : "mr-auto rounded-t-2xl rounded-bl-2xl"
+              }`}
               style={{ animationDelay: `${idx * 150}ms` }}
             >
               <div className="absolute -top-15 lg:-top-10 -right-20 lg:-right-10 w-40 h-40 bg-[#169EBE]/10 rotate-45 rounded-2xl z-0 animate-spin-slow"></div>
-              {
-                idx%2?
+              {idx % 2 ? (
                 <div className="absolute top-2 -left-4 py-1 px-6 -rotate-45 bg-[#9ee9fa] z-0 sm:hidden"></div>
-                :
+              ) : (
                 <div className="absolute bottom-2 -right-4 py-1 px-6 -rotate-45 bg-[#9ee9fa] z-0 sm:hidden"></div>
-              }
+              )}
               {/* {
                 idx%2?
                 <div className="absolute top-0 left-0 border-l-[20px] border-l-[#9ee9fa] border-b-[20px] border-b-transparent z-0"></div>
                 :
                 <div className="absolute bottom-0 right-0 border-r-[20px] border-r-[#9ee9fa] border-t-[20px] border-t-transparent z-0"></div>
               } */}
-
 
               <div className="relative z-10">
                 <h3 className=" sm:text-xl lg:text-2xl font-semibold text-gray-700 mb-3 font-main tracking-tight">
@@ -136,9 +157,9 @@ export default function AboutUs() {
       </section>
 
       <section className="relative py-12 md:py-20 px-6 md:px-12 lg:px-24 bg-[#3bbfdd] text-white overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#3bbfdd] to-[#9ef4fa] opacity-60 z-0 animate-bgGradient"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#9ee9fa] to-[#9ef4fa] opacity-60 z-0 animate-bgGradient"></div>
 
-        <div className="absolute top-[-10%] left-[-20%] w-[200px] h-[200px] bg-[#9ef4fa] opacity-20 rounded-full animate-float1"></div>
+        <div className="absolute top-[-10%] left-[-20%] w-[200px] h-[200px] bg-[#4feaf6] opacity-20 rounded-full animate-float1"></div>
         <div className="absolute bottom-[-5%] right-[-10%] w-[250px] h-[250px] bg-[#3bbfdd] opacity-30 rounded-full animate-float2"></div>
 
         <div className="max-w-4xl mx-auto text-left relative z-10">

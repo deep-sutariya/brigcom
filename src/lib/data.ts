@@ -17,9 +17,9 @@ export const FooterData = {
     { name: "Mumbai", link: "/mumbai" },
   ],
   Contact: [
-    { name: "Registered address:", detail: "DhanShree, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, 395004", type: "address" },
-    { name: "Phone Number:", detail: "9999999999 / 8888888888", type: "phone" },
-    { name: "Email:", detail: "company@domain.com", type: "email" }
+    { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", type: "address" },
+    { name: "Phone Number:", detail: "+91 75676 12902", type: "phone" },
+    { name: "Email:", detail: "brigcom.enterprise@gmail.com", type: "email" }
   ]
 
 }

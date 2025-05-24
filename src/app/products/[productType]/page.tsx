@@ -1,10 +1,12 @@
 "use client";
+
 import ProductCard from "@/components/ProductsCard";
 import {
   productData,
   productUrltoNameMapping,
   productNametoUrlMapping,
 } from "@/lib/data";
+import Link from "next/link";
 import { useParams } from "next/navigation";
 
 export default function Page() {
@@ -13,8 +15,30 @@ export default function Page() {
     productUrltoNameMapping[
       productType as keyof typeof productUrltoNameMapping
     ] || "Unknown Product";
+
+  const productBannerName = productName.includes("Ayurveda") ? "herbs" : productName.includes("spices") && "spices";
+
   return (
     <main>
+      <div className="w-full mx-auto">
+        <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+          <img
+            src={`/background/${productBannerName}.jpg`}
+            alt="Product Type Banner"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute z-30 inset-0 bg-black/40 flex flex-col justify-center px-6 md:px-48 text-white ">
+            <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">
+              {productName}
+            </h1>
+            <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
+              <Link href="/">HOME</Link>
+              <span>/</span>
+              <h3 className=" uppercase">{productName}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="w-fit mx-auto mt-14 sm:mt-20">
         <div className="font-main text-lg lg:text-3xl font-semibold text-gray-700 text-center">
           Indian {productName} Exporter

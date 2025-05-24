@@ -77,7 +77,7 @@ const Navbar = () => {
                 scrolling
                   ? "transform transition-transform scale-[0.9] duration-200 ease-in-out -my-2"
                   : ""
-              } lg:text-lg list-none outline-none hover:text-green-300 duration-150 ${isCurrentPath(
+              } lg:text-lg list-none outline-none hover:text-[#169EBE] duration-150 ${isCurrentPath(
                 data.link
               )}`}
             >
@@ -98,7 +98,7 @@ const Navbar = () => {
       {menuToggle && (
         <div
           id="navbar"
-          className={`md:hidden animate-leftright z-40 drop-shadow-sm fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-[100vh] flex flex-col items-center border-b-2 pb-5 backdrop-blur-3xl translate-y-0`}
+          className={`md:hidden animate-leftright z-40 drop-shadow-sm fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-[100vh] flex flex-col items-center border-b-2 pb-5 backdrop-blur-3xl bg-white translate-y-0`}
         >
           <div className={`mt-7 sm:mt-14 px-10 pt-8 h-screen ${scrolling && "mt-16"}`}>
             <div className="flex flex-col w-full items-center justify-between h-[83dvh]">
@@ -107,7 +107,7 @@ const Navbar = () => {
                   <li
                     key={ind}
                     onClick={toggleMenu}
-                    className={`drop-shadow-xl font-main p-1 cursor-pointer text-center tracking-widest list-none duration-150 hover:text-green-300 ${isCurrentPath(
+                    className={`drop-shadow-xl font-main p-1 cursor-pointer text-center tracking-widest list-none duration-150 hover:text-[#169EBE] ${isCurrentPath(
                       data.link
                     )}`}
                   >
