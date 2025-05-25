@@ -26,7 +26,7 @@ export const FooterData = {
 
 
 export const productData = {
-  ayurvedaandherbs : [
+  ayurvedaandherbs: [
     {
       name: "Mulethi",
       scientificName: "Glycyrrhiza glabra",
@@ -606,197 +606,386 @@ export const productData = {
       }
     }
   ],
-  spices: [
-    {
-      name: "Cumin Seeds",
-      scientificName: "Cuminum cyminum",
-      hsCode: "09093129",
-      origin: "Gujarat & Rajasthan, India",
-      availability: "March to June",
-      packaging: "25kg / 50kg PP or Paper Bags",
-      shelfLife: "12-18 months",
-      healthBenefits: [
-        "Aids digestion",
-        "Rich in antioxidants",
-        "Supports weight loss",
-        "Boosts immunity",
-        "Controls blood sugar"
-      ],
-      uses: [
-        "Seasoning and flavoring",
-        "Spice blends (curry powders, garam masala)",
-        "Ayurvedic medicine"
-      ],
-      nutritionFacts: {
-        calories: "375 kcal",
-        dietaryFiber: "10 g",
-        totalCarbohydrate: "44 g",
-        protein: "18 g",
-        fat: "22 g"
+  spices:
+  {
+    "Cumin Seeds": {
+      "GLOBAL MARKET DEMAND": "Cumin seeds are one of the most widely exported Indian spices, known for their distinctive aroma and flavor. India dominates global cumin production and export, meeting over 70% of international demand. The USA, UAE, Vietnam, Bangladesh, and the UK are top consumers. Indian Cumin Singapore 99% is highly preferred for its purity and essential oil content. Demand surges during festive seasons and in the food processing industry year-round.",
+      "High Demand Countries": "USA, UAE, Vietnam, Bangladesh, UK, Malaysia",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Cuminum cyminum",
+        "Family": "Apiaceae",
+        "Binomial Name": "Cuminum cyminum L.",
+        "HS Code": "09093129",
+        "Origin": "Gujarat (Unjha), Rajasthan",
+        "Shelf Life": "12 months",
+        "Availability": "Year-round",
+        "Packaging": "25kg / 50kg PP Bags or Customized"
       },
-      vitamins: {
-        "B-complex": "Present",
-        "Vitamin C": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Aids digestion, rich in antioxidants, anti-inflammatory properties",
+        "Uses": "Seasoning, spice blends, traditional medicines"
       },
-      minerals: {
-        "Iron": "Present",
-        "Calcium": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "375 kcal",
+        "Dietary Fiber": "10.5 g",
+        "Total Carbohydrate": "44 g",
+        "Protein": "17.8 g",
+        "Vitamins": "A, C, E, B-complex",
+        "Minerals": "Iron, Calcium, Magnesium, Manganese",
+        "Fat": "22 g",
+        "Moisture": "8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Coriander Seeds",
-      scientificName: "Coriandrum sativum",
-      hsCode: "09092190",
-      origin: "Gujarat, Rajasthan, Madhya Pradesh",
-      availability: "March to May",
-      packaging: "25kg / 50kg PP Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "Promotes digestion",
-        "Lowers cholesterol",
-        "Detoxifies the body",
-        "Controls blood sugar",
-        "Anti-inflammatory"
-      ],
-      uses: [
-        "Culinary spice",
-        "Herbal tea and extracts",
-        "Spice mixes"
-      ],
-      nutritionFacts: {
-        calories: "298 kcal",
-        dietaryFiber: "42 g",
-        totalCarbohydrate: "55 g",
-        protein: "12 g",
-        fat: "17 g"
+    "Turmeric": {
+      "GLOBAL MARKET DEMAND": "Turmeric is one of the most demanded Indian spices globally, due to its strong medicinal value and use in food, cosmetics, and wellness. India exports to over 150 countries, led by the USA, UAE, Iran, Bangladesh, and Malaysia. Curcumin content in Indian turmeric is globally prized. The market peaks during winter and health seasons due to immunity and inflammation-related benefits.",
+      "High Demand Countries": "USA, UAE, Iran, Bangladesh, Malaysia, Germany",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Curcuma longa",
+        "Family": "Zingiberaceae",
+        "Binomial Name": "Curcuma longa L.",
+        "HS Code": "09103030",
+        "Origin": "Maharashtra, Tamil Nadu, Andhra Pradesh",
+        "Shelf Life": "12–18 months",
+        "Availability": "Year-round (Peak: Feb–May)",
+        "Packaging": "25kg / 50kg Jute or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present",
-        "Vitamin K": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Anti-inflammatory, antioxidant, improves liver health, immunity booster",
+        "Uses": "Food coloring, curry blends, ayurvedic formulations, cosmetics"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "312 kcal",
+        "Dietary Fiber": "22.7 g",
+        "Total Carbohydrate": "67.1 g",
+        "Protein": "9.7 g",
+        "Vitamins": "B6, C",
+        "Minerals": "Iron, Manganese, Potassium",
+        "Fat": "3.3 g",
+        "Moisture": "6–12%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Fenugreek Seeds",
-      scientificName: "Trigonella foenum-graecum",
-      hsCode: "09109912",
-      origin: "Rajasthan & Gujarat",
-      availability: "January to April",
-      packaging: "25kg / 50kg PP or Jute Bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Helps in diabetes management",
-        "Improves digestion",
-        "Promotes lactation",
-        "Reduces cholesterol",
-        "Enhances testosterone levels"
-      ],
-      uses: [
-        "Spices and seasoning",
-        "Herbal and pharmaceutical products",
-        "Nutraceuticals"
-      ],
-      nutritionFacts: {
-        calories: "323 kcal",
-        dietaryFiber: "25 g",
-        totalCarbohydrate: "58 g",
-        protein: "23 g",
-        fat: "6.4 g"
+    "Coriander Seeds": {
+      "GLOBAL MARKET DEMAND": "Coriander seeds are a staple export product from India, widely used in spice mixes, pickles, and medicines. Indian coriander is preferred for its flavor and oil content. The highest demand comes from Malaysia, UAE, Indonesia, USA, and Nepal. Demand is steady with seasonal spikes before major festivals and during winter.",
+      "High Demand Countries": "Malaysia, UAE, Indonesia, USA, Nepal",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Coriandrum sativum",
+        "Family": "Apiaceae",
+        "Binomial Name": "Coriandrum sativum L.",
+        "HS Code": "09092110",
+        "Origin": "Rajasthan, Gujarat, Madhya Pradesh",
+        "Shelf Life": "12 months",
+        "Availability": "Feb–Sep",
+        "Packaging": "25kg / 50kg PP or Gunny Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin B6": "Present",
-        "Vitamin C": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Digestive aid, cholesterol control, rich in antioxidants",
+        "Uses": "Spice blends, pickling, herbal teas, traditional  medicine"
       },
-      minerals: {
-        "Iron": "Present",
-        "Manganese": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "298 kcal",
+        "Dietary Fiber": "41.9 g",
+        "Total Carbohydrate": "54.99 g",
+        "Protein": "12.37 g",
+        "Vitamins": "C, K, B-complex",
+        "Minerals": "Iron, Calcium, Magnesium",
+        "Fat": "17.77 g",
+        "Moisture": "8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Turmeric (Whole/Dried Polished)",
-      scientificName: "Curcuma longa",
-      hsCode: "09103030",
-      origin: "Maharashtra & Tamil Nadu",
-      availability: "January to June",
-      packaging: "25kg / 50kg Jute or PP Bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Anti-inflammatory & antioxidant",
-        "Boosts brain function",
-        "Improves skin health",
-        "Natural immunity booster",
-        "Aids in liver detox"
-      ],
-      uses: [
-        "Spice powders",
-        "Herbal medicines",
-        "Cosmetics and skincare",
-        "Ayurvedic & food supplements"
-      ],
-      nutritionFacts: {
-        calories: "312 kcal",
-        dietaryFiber: "22 g",
-        totalCarbohydrate: "64 g",
-        protein: "9.7 g",
-        fat: "3.3 g"
+    "Fennel Seeds": {
+      "GLOBAL MARKET DEMAND": "Fennel seeds are in consistent international demand due to their culinary and medicinal uses. Major markets include the USA, UAE, UK, Malaysia, and Sri Lanka. They're used in spice blends, mouth fresheners, and traditional medicines.",
+      "High Demand Countries": "USA, UAE, UK, Malaysia, Sri Lanka",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Foeniculum vulgare",
+        "Family": "Apiaceae",
+        "Binomial Name": "Foeniculum vulgare Mill.",
+        "HS Code": "09096190",
+        "Origin": "Gujarat, Rajasthan, Maharashtra",
+        "Shelf Life": "12 months",
+        "Availability": "February to May (peak), year-round (stocked)",
+        "Packaging": "25kg / 50kg PP bags or customized"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin E": "Present",
-        "Vitamin K": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Improves digestion, rich in antioxidants, aids respiratory health",
+        "Uses": "Culinary seasoning, tea blends, traditional medicine, flavoring"
       },
-      minerals: {
-        "Iron": "Present",
-        "Manganese": "Present",
-        "Potassium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "345 kcal",
+        "Dietary Fiber": "39.8g",
+        "Total Carbohydrate": "52g",
+        "Protein": "15.8g",
+        "Vitamins": "A, C, B-complex",
+        "Minerals": "Iron, Potassium, Calcium, Manganese",
+        "Fat": "14.9g",
+        "Moisture": "<10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Dill Seeds",
-      scientificName: "Anethum graveolens",
-      hsCode: "09109914",
-      origin: "Gujarat & Rajasthan",
-      availability: "March to May",
-      packaging: "25kg / 50kg PP Bags",
-      shelfLife: "12-18 months",
-      healthBenefits: [
-        "Supports digestion",
-        "Antibacterial and antifungal",
-        "Aids in insomnia",
-        "Rich in antioxidants",
-        "Promotes respiratory health"
-      ],
-      uses: [
-        "Pickling and seasoning",
-        "Herbal tea",
-        "Traditional medicine"
-      ],
-      nutritionFacts: {
-        calories: "305 kcal",
-        dietaryFiber: "20 g",
-        totalCarbohydrate: "55 g",
-        protein: "15 g",
-        fat: "14 g"
+    "Fenugreek Seeds": {
+      "GLOBAL MARKET DEMAND": "Indian fenugreek seeds are exported widely for culinary and medicinal uses. Its bitter-sweet taste and rich saponin content make it popular in the food and pharmaceutical industries. High demand is seen from Egypt, USA, Nepal, Bangladesh, and UAE. The product experiences stable demand throughout the year, with spikes during winter and flu season.",
+      "High Demand Countries": "Egypt, USA, Nepal, Bangladesh, UAE",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Trigonella foenum-graecum",
+        "Family": "Fabaceae",
+        "Binomial Name": "Trigonella foenum-graecum L.",
+        "HS Code": "09109912",
+        "Origin": "Rajasthan, Gujarat, Madhya Pradesh",
+        "Shelf Life": "12 months",
+        "Availability": "January–May",
+        "Packaging": "25kg / 50kg PP Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Regulates blood sugar, aids lactation, boosts metabolism",
+        "Uses": "Pickles, spice blends, herbal formulations"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "323 kcal",
+        "Dietary Fiber": "24.6 g",
+        "Total Carbohydrate": "58.4 g",
+        "Protein": "23 g",
+        "Vitamins": "B1, B2, B3, C",
+        "Minerals": "Iron, Magnesium, Manganese",
+        "Fat": "6.4 g",
+        "Moisture": "6–8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Black Pepper": {
+      "GLOBAL MARKET DEMAND": "Black pepper is known as the “King of Spices” and is in constant global demand for culinary and medicinal uses. Indian black pepper, especially Malabar and Tellicherry grades, are preferred for their aroma and pungency. Leading markets include the USA, Germany, Vietnam, UAE, and the UK. The product sees high demand in winter and festive seasons.",
+      "High Demand Countries": "USA, Germany, Vietnam, UAE, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Piper nigrum",
+        "Family": "Piperaceae",
+        "Binomial Name": "Piper nigrum L.",
+        "HS Code": "09041120",
+        "Origin": "Kerala, Karnataka, Tamil Nadu",
+        "Shelf Life": "12–18 months",
+        "Availability": "January–April",
+        "Packaging": "25kg / 50kg Jute or PP Bags"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Improves digestion, anti-inflammatory, enhances nutrient absorption",
+        "Uses": "Seasoning, sauces, medicines, functional foods"
+      },
+      "INGRIDIENCE": {
+        "Calories": "251 kcal",
+        "Dietary Fiber": "25.3 g",
+        "Total Carbohydrate": "64 g",
+        "Protein": "10.9 g",
+        "Vitamins": "C, K, B6",
+        "Minerals": "Iron, Manganese, Calcium",
+        "Fat": "3.3 g",
+        "Moisture": "10–12%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Red Chilli": {
+      "GLOBAL MARKET DEMAND": "Indian red chillies are among the most exported spices due to their heat, vibrant color, and pungent aroma. India dominates global chilli exports, especially varieties like Teja, Sannam, and Byadgi. The demand is high in countries such as China, USA, Mexico, Thailand, and Bangladesh, with consistent year-round export requirements for both whole and powdered forms.",
+      "High Demand Countries": "China, USA, Mexico, Thailand, Bangladesh",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Capsicum annuum",
+        "Family": "Solanaceae",
+        "Binomial Name": "Capsicum annuum L.",
+        "HS Code": "09042211",
+        "Origin": "Andhra Pradesh, Telangana, Madhya Pradesh",
+        "Shelf Life": "12 months",
+        "Availability": "February–July",
+        "Packaging": "25kg / 50kg PP Bags or Customized"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Boosts metabolism, rich in antioxidants, supports heart health",
+        "Uses": "Spice blends, sauces, pickles, seasoning"
+      },
+      "INGRIDIENCE": {
+        "Calories": "282 kcal",
+        "Dietary Fiber": "27.2 g",
+        "Total Carbohydrate": "49.9 g",
+        "Protein": "13.5 g",
+        "Vitamins": "A, B6, C",
+        "Minerals": "Iron, Potassium, Magnesium",
+        "Fat": "14.3 g",
+        "Moisture": "8–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Cardamom": {
+      "GLOBAL MARKET DEMAND": "Green cardamom is one of the most aromatic and premium spices exported from India. It enjoys high demand in the Middle East, Europe, and the USA due to its culinary and medicinal uses. Its export is driven by festive, confectionery, and traditional medicine applications. Indian cardamom stands out for its oil content and bold pods.",
+      "High Demand Countries": "UAE, Saudi Arabia, Germany, USA, Kuwait",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Elettaria cardamomum",
+        "Family": "Zingiberaceae",
+        "Binomial Name": "Elettaria cardamomum (L.) Maton",
+        "HS Code": "09083190",
+        "Origin": "Kerala, Tamil Nadu, Karnataka",
+        "Shelf Life": "12 months",
+        "Availability": "August–February",
+        "Packaging": "5kg / 10kg cartons, vacuum packs, or as required"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Aids digestion, improves oral health, relieves cold and cough",
+        "Uses": "Bakery, beverages, Indian sweets, Ayurvedic medicine"
+      },
+      "INGRIDIENCE": {
+        "Calories": "311 kcal",
+        "Dietary Fiber": "28 g",
+        "Total Carbohydrate": "68 g",
+        "Protein": "11 g",
+        "Vitamins": "B1, B2, C",
+        "Minerals": "Iron, Magnesium, Zinc",
+        "Fat": "7 g",
+        "Moisture": "6–8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Cloves": {
+      "GLOBAL MARKET DEMAND": "Cloves are among the most valuable spices globally, with strong export demand from Europe, USA, China, and the Middle East. They are widely used in culinary applications, cosmetics, traditional medicine, and aromatherapy.",
+      "High Demand Countries": "USA, Germany, UAE, China, Netherlands",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Syzygium aromaticum",
+        "Family": "Myrtaceae",
+        "Binomial Name": "Syzygium aromaticum (L.) Merr. & L.M.Perry",
+        "HS Code": "09071000",
+        "Origin": "Kerala, Tamil Nadu, Karnataka",
+        "Shelf Life": "24 months",
+        "Availability": "August to December",
+        "Packaging": "10kg / 25kg gunny bags or as per requirement"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Antiseptic, boosts immunity, reduces inflammation",
+        "Uses": "Cooking, flavoring, oral care products, essential oils"
+      },
+      "INGRIDIENCE": {
+        "Calories": "274 kcal",
+        "Dietary Fiber": "33.9g",
+        "Total Carbohydrate": "65.5g",
+        "Protein": "5.9g",
+        "Vitamins": "A, C, K",
+        "Minerals": "Calcium, Magnesium, Manganese",
+        "Fat": "13g",
+        "Moisture": "<10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Carom Seeds": {
+      "GLOBAL MARKET DEMAND": "Ajwain has high demand in the Middle East, USA, and Southeast Asia for its unique flavor and medicinal properties. It is widely used in Indian and Middle Eastern cuisines and natural remedies.",
+      "High Demand Countries": "Saudi Arabia, UAE, USA, Bangladesh, Qatar",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Trachyspermum ammi",
+        "Family": "Apiaceae",
+        "Binomial Name": "Trachyspermum ammi (L.) Sprague",
+        "HS Code": "09109913",
+        "Origin": "Rajasthan, Gujarat, Uttar Pradesh",
+        "Shelf Life": "12 months",
+        "Availability": "February to April",
+        "Packaging": "25kg / 50kg PP or paper bags"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Treats indigestion, cough, and colds; antibacterial properties",
+        "Uses": "Pickles, spice blends, Ayurvedic medicine"
+      },
+      "INGRIDIENCE": {
+        "Calories": "305 kcal",
+        "Dietary Fiber": "20g",
+        "Total Carbohydrate": "43g",
+        "Protein": "15.9g",
+        "Vitamins": "B1, B3",
+        "Minerals": "Calcium, Iron, Phosphorus",
+        "Fat": "25g",
+        "Moisture": "<9%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Long Pepper": {
+      "GLOBAL MARKET DEMAND": "Long Pepper is a niche but growing export product valued in traditional medicine and gourmet cooking, especially in European and Southeast Asian countries. Demand is rising due to its Ayurvedic significance.",
+      "High Demand Countries": "Germany, USA, Thailand, Vietnam, Nepal",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Piper longum",
+        "Family": "Piperaceae",
+        "Binomial Name": "Piper longum L.",
+        "HS Code": "09041120",
+        "Origin": "Kerala, Karnataka, Tamil Nadu",
+        "Shelf Life": "12 months",
+        "Availability": "February to July",
+        "Packaging": "25kg jute or poly bags"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Supports respiratory health, digestive aid, anti-inflammatory",
+        "Uses": "Traditional medicine, spice in gourmet cooking"
+      },
+      "INGRIDIENCE": {
+        "Calories": "296 kcal",
+        "Dietary Fiber": "26.5g",
+        "Total Carbohydrate": "64g",
+        "Protein": "10.4g",
+        "Vitamins": "A, C",
+        "Minerals": "Iron, Manganese, Potassium",
+        "Fat": "2.1g",
+        "Moisture": "<12%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Curry Leaves": {
+      "GLOBAL MARKET DEMAND": "Dried curry leaves have rising demand in international markets, especially in Europe, USA, and Gulf countries, for their role in South Indian cuisine and Ayurvedic remedies. Their export value is increasing with the growing popularity of ethnic foods.",
+      "High Demand Countries": "USA, UK, Germany, UAE, Singapore",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Murraya koenigii",
+        "Family": "Rutaceae",
+        "Binomial Name": "Murraya koenigii (L.) Spreng",
+        "HS Code": "12119029",
+        "Origin": "Tamil Nadu, Karnataka, Andhra Pradesh",
+        "Shelf Life": "12 months",
+        "Availability": "Year-round",
+        "Packaging": "10kg / 20kg polybags or as required"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Antioxidant, anti-diabetic, supports liver health, aids digestion",
+        "Uses": "Cooking, herbal tea, Ayurvedic formulations"
+      },
+      "INGRIDIENCE": {
+        "Calories": "108 kcal",
+        "Dietary Fiber": "6.4g",
+        "Total Carbohydrate": "18.7g",
+        "Protein": "6.1g",
+        "Vitamins": "A, B, C, E",
+        "Minerals": "Iron, Calcium, Magnesium",
+        "Fat": "1g",
+        "Moisture": "<10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Tamarind": {
+      "GLOBAL MARKET DEMAND": "Tamarind is a highly exported spice-cum-fruit product, widely used in African, Southeast Asian, and Middle Eastern cuisines. Its souring properties and use in sauces, pastes, and drinks make it a staple in many countries.",
+      "High Demand Countries": "UAE, Saudi Arabia, Malaysia, Nigeria, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Tamarindus indica",
+        "Family": "Fabaceae",
+        "Binomial Name": "Tamarindus indica L.",
+        "HS Code": "08109010",
+        "Origin": "Tamil Nadu, Andhra Pradesh, Maharashtra",
+        "Shelf Life": "12–18 months",
+        "Availability": "December to April",
+        "Packaging": "25kg / 50kg jute or laminated bags"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Rich in antioxidants, aids digestion, supports heart health",
+        "Uses": "Chutneys, sauces, beverages, seasoning"
+      },
+      "INGRIDIENCE": {
+        "Calories": "239 kcal",
+        "Dietary Fiber": "5.1g",
+        "Total Carbohydrate": "62.5g",
+        "Protein": "2.8g",
+        "Vitamins": "C, B1, B3",
+        "Minerals": "Potassium, Magnesium, Iron",
+        "Fat": "0.6g",
+        "Moisture": "<20%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     }
-  ],
+  },
   oilseeds: [
     {
       name: "Sesame Seeds (Natural & Hulled)",
@@ -1007,8 +1196,16 @@ export const productUrltoNameMapping: Record<string, string> = {
 
   "cumin-seeds": "Cumin Seeds",
   "coriander-seeds": "Coriander Seeds",
+  "fennel-seeds": "Fennel Seeds",
   "fenugreek-seeds": "Fenugreek Seeds",
-  "dill-seeds": "Dill Seeds",
+  "black-pepper": "Black Pepper",
+  "red-chilli": "Red Chilli",
+  "cardamom": "Cardamom",
+  "cloves": "Cloves",
+  "carom-seeds": "Carom Seeds",
+  "long-pepper": "Long Pepper",
+  "curry-leaves": "Curry Leaves",
+  "tamarind": "Tamarind",
 
   "sesame-seeds": "Sesame Seeds",
   "groundnut": "Groundnut",
@@ -1036,8 +1233,16 @@ export const productNametoUrlMapping: Record<string, string> = {
 
   "Cumin Seeds": "cumin-seeds",
   "Coriander Seeds": "coriander-seeds",
+  "Fennel Seeds": "fennel-seeds",
   "Fenugreek Seeds": "fenugreek-seeds",
-  "Dill Seeds": "dill-seeds",
+  "Black Pepper": "black-pepper",
+  "Red Chilli": "red-chilli",
+  "Cardamom": "cardamom",
+  "Cloves": "cloves",
+  "Carom Seeds": "carom-seeds",
+  "Long Pepper": "long-pepper",
+  "Curry Leaves": "curry-leaves",
+  "Tamarind": "tamarind",
 
   "Sesame Seeds": "sesame-seeds",
   "Groundnut": "groundnut",

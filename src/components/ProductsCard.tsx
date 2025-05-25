@@ -11,7 +11,6 @@ interface ImageCardProps {
   productscientificName?: string;
   className?: string;
 }
-
 const ProductCard: React.FC<ImageCardProps> = ({ imageUrl, title, link, type = "product", productName,  productscientificName, className }) => {
   return (
     <Link
@@ -23,8 +22,8 @@ const ProductCard: React.FC<ImageCardProps> = ({ imageUrl, title, link, type = "
           <img className="w-full h-48 object-cover" src={imageUrl} alt={title} />
         :
           <div className=" flex items-center justify-center gap-x-4 border py-8 px-8 rounded-t-lg font-main text-sm">
-            <div className=" border-r-2 border-gray-300 pr-4">{productName}</div>
-            <div>{productscientificName}</div>
+            <div className="  border-gray-300 pr-4">{productName}</div>
+            {/* <div>{productscientificName}</div> */}
           </div>
       }
       <div className="p-4">

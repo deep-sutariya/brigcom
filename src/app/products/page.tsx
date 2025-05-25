@@ -38,7 +38,13 @@ export default function Home() {
           type="productType"
         />
         {/* <ProductCard imageUrl="/4.jpg" title="Oil Seeds" link="/products/oilseeds" /> */}
-        {/* <ProductCard imageUrl="/4.jpg" title="Spices" link="/products/spices" /> */}
+        <ProductCard
+          imageUrl="/4.jpg"
+          title="Spices"
+          link="/products/spices"
+          className=" w-full md:w-2/6"
+          type="productType"
+        />
         {/* <ProductCard imageUrl="/4.jpg" title="Frozen & IQF" link="/" /> */}
       </div>
     </main>
