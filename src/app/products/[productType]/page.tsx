@@ -22,8 +22,6 @@ export default function Page() {
 
   const productTypeData =  productData?.[productType as keyof typeof productData];
 
-  
-    
   return (
     <main>
       <div className="w-full mx-auto">
@@ -54,8 +52,6 @@ export default function Page() {
       <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-center gap-4 lg:gap-10 py-4 px-5 md:px-16 lg:px-28 my-10 lg:my-20">
         {(Object.keys(productTypeData) ?? []).map(
           (item, index) => {
-            console.log(item);
-            
             return (
             <ProductCard
               key={index}

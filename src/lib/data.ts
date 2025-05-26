@@ -26,586 +26,472 @@ export const FooterData = {
 
 
 export const productData = {
-  ayurvedaandherbs: [
-    {
-      name: "Mulethi",
-      scientificName: "Glycyrrhiza glabra",
-      hsCode: "12119029",
-      origin: "Gujarat, Rajasthan, and parts of Madhya Pradesh, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Boosts immunity",
-        "Soothes sore throat",
-        "Supports digestion",
-        "Anti-inflammatory",
-        "Rich in antioxidants"
-      ],
-      uses: [
-        "Herbal teas",
-        "Ayurveda and Unani medicines",
-        "Food flavoring",
-        "Cosmetics",
-        "Pharmaceutical preparations"
-      ],
-      nutritionFacts: {
-        calories: "375 kcal",
-        dietaryFiber: "0.2 g",
-        totalCarbohydrate: "93.5 g",
-        protein: "0 g",
-        fat: "0.05 g"
+  ayurvedaandherbs: {
+    "Psyllium Husk": {
+      "GLOBAL MARKET DEMAND": "Psyllium Husk, commonly known as Isabgol, holds a dominant share in the global dietary fiber market due to its use as a natural laxative and digestive aid. India is the largest producer and exporter of psyllium husk, with consistent demand from the USA, UK, Germany, Australia, and the Middle East. It is widely used in health supplements, pharmaceutical products, breakfast cereals, and bakery goods.",
+      "High Demand Countries": "USA, UK, Germany, Australia, UAE",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Plantago ovata",
+        "Family": "Plantaginaceae",
+        "Binomial Name": "Plantago ovata Forsk.",
+        "HS Code": "12119099",
+        "Origin": "Gujarat, Rajasthan",
+        "Shelf Life": "24 months",
+        "Availability": "Year-round",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin B1": "Present",
-        "Vitamin B3": "Present",
-        "Vitamin B5": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Improves digestion, relieves constipation, lowers cholesterol, regulates blood sugar",
+        "Uses": "Dietary fiber, food additive, pharmaceutical formulations, weight loss products"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "336 kcal",
+        "Dietary Fiber": "71 g",
+        "Total Carbohydrate": "84 g",
+        "Protein": "2 g",
+        "Vitamins": "Trace amounts of Vitamin B1 and B3",
+        "Minerals": "Calcium, Potassium, Iron",
+        "Fat": "0.6 g",
+        "Moisture": "6-8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Neem",
-      scientificName: "Azadirachta indica",
-      hsCode: "12119029",
-      origin: "Gujarat, Rajasthan, Uttar Pradesh, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Antibacterial",
-        "Antifungal",
-        "Antiviral",
-        "Supports skin health",
-        "Aids in dental care",
-        "Purifies blood"
-      ],
-      uses: [
-        "Herbal medicines",
-        "Cosmetics",
-        "Agriculture (natural pesticide)",
-        "Personal care products"
-      ],
-      nutritionFacts: {
-        calories: "120 kcal",
-        dietaryFiber: "2.1 g",
-        totalCarbohydrate: "25 g",
-        protein: "2.5 g",
-        fat: "1.1 g"
+    "Mulethi": {
+      "GLOBAL MARKET DEMAND": "Mulethi, also known as Licorice Root, has witnessed consistent global demand for its application in traditional medicine, natural sweeteners, and respiratory care. Major demand comes from countries such as the USA, Germany, Japan, and the UAE. It is commonly used in herbal teas, Ayurvedic formulations, and cough syrups. The product gains more traction during flu seasons due to its soothing properties.",
+      "High Demand Countries": "USA, Germany, UAE, Japan, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Glycyrrhiza glabra",
+        "Family": "Fabaceae",
+        "Binomial Name": "Glycyrrhiza glabra L.",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Uttar Pradesh, Punjab",
+        "Shelf Life": "24 months",
+        "Availability": "October to June",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin E": "Present",
-        "Vitamin B6": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Soothes sore throat, supports digestion, boosts immunity",
+        "Uses": "Herbal tea, syrup base, Ayurvedic medicine, cosmetic products"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "375 kcal",
+        "Dietary Fiber": "9 g",
+        "Total Carbohydrate": "70 g",
+        "Protein": "6 g",
+        "Vitamins": "B1, B2, B3, E",
+        "Minerals": "Iron, Calcium, Magnesium",
+        "Fat": "0.05 g",
+        "Moisture": "7–9%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Moringa",
-      scientificName: "Moringa oleifera",
-      hsCode: "12119029",
-      origin: "Tamil Nadu, Andhra Pradesh, Gujarat, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Rich in antioxidants",
-        "Supports heart health",
-        "Anti-inflammatory",
-        "Regulates blood sugar levels"
-      ],
-      uses: [
-        "Nutritional supplements",
-        "Herbal teas",
-        "Functional foods",
-        "Cosmetics"
-      ],
-      nutritionFacts: {
-        calories: "64 kcal",
-        dietaryFiber: "2.0 g",
-        totalCarbohydrate: "8.3 g",
-        protein: "9.4 g",
-        fat: "1.4 g"
+    "Neem Leaves": {
+      "GLOBAL MARKET DEMAND": "Neem leaves from India are highly regarded for their antibacterial, antifungal, and antiviral properties. They are exported widely for use in natural medicine, cosmetics, and organic farming. Countries like the USA, Germany, South Africa, and UAE have growing demand, especially in the wellness and skincare sectors.",
+      "High Demand Countries": "USA, Germany, South Africa, UAE, Bangladesh",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Azadirachta indica",
+        "Family": "Meliaceae",
+        "Binomial Name": "Azadirachta indica A. Juss.",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Madhya Pradesh, Tamil Nadu",
+        "Shelf Life": "12 months",
+        "Availability": "February to August",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Purifies blood, treats skin disorders, improves immunity",
+        "Uses": "Herbal supplements, cosmetics, pest repellents, soaps"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "117 kcal",
+        "Dietary Fiber": "2.1 g",
+        "Total Carbohydrate": "25 g",
+        "Protein": "6.5 g",
+        "Vitamins": "A, C, E",
+        "Minerals": "Calcium, Phosphorus, Potassium",
+        "Fat": "1.1 g",
+        "Moisture": "10–12%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Turmeric",
-      scientificName: "Curcuma longa",
-      hsCode: "09103030",
-      origin: "Gujarat, Tamil Nadu, Andhra Pradesh, Maharashtra, Odisha, India",
-      availability: "February to July",
-      packaging: "25kg / 50kg PP bags, Jute Bags, or customized",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Anti-inflammatory",
-        "Rich in antioxidants",
-        "Supports joint health",
-        "Boosts immunity",
-        "Aids digestion"
-      ],
-      uses: [
-        "Spices",
-        "Herbal teas",
-        "Capsules",
-        "Extracts",
-        "Skincare",
-        "Wellness drinks"
-      ],
-      nutritionFacts: {
-        calories: "354 kcal",
-        dietaryFiber: "21 g",
-        totalCarbohydrate: "64.9 g",
-        protein: "7.8 g",
-        fat: "9.9 g"
+    "Ashwagandha": {
+      "GLOBAL MARKET DEMAND": "Ashwagandha, one of the most demanded adaptogenic herbs, has strong export demand in the USA, Canada, Germany, and Australia due to its growing popularity in stress relief, energy-boosting, and nootropic supplements. It is used in capsules, powders, and herbal blends, especially among the wellness and fitness community.",
+      "High Demand Countries": "USA, Germany, Canada, Australia, UAE",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Withania somnifera",
+        "Family": "Solanaceae",
+        "Binomial Name": "Withania somnifera (L.) Dunal",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Madhya Pradesh, Rajasthan",
+        "Shelf Life": "24 months",
+        "Availability": "November to April",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin E": "Present",
-        "Vitamin K": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Reduces stress, boosts energy, improves brain function",
+        "Uses": "Herbal supplements, Ayurvedic medicines, sports nutrition"
       },
-      minerals: {
-        "Iron": "Present",
-        "Manganese": "Present",
-        "Potassium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "245 kcal",
+        "Dietary Fiber": "36.5 g",
+        "Total Carbohydrate": "53 g",
+        "Protein": "3.7 g",
+        "Vitamins": "B-complex, C",
+        "Minerals": "Iron, Calcium, Zinc",
+        "Fat": "0.3 g",
+        "Moisture": "8–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Tulsi",
-      scientificName: "Ocimum sanctum",
-      hsCode: "12119029",
-      origin: "Gujarat, Uttar Pradesh, Madhya Pradesh, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Reduces stress and anxiety",
-        "Supports respiratory health",
-        "Anti-inflammatory",
-        "Enhances immunity"
-      ],
-      uses: [
-        "Herbal teas",
-        "Ayurvedic medicines",
-        "Essential oils",
-        "Skincare products"
-      ],
-      nutritionFacts: {
-        calories: "22 kcal",
-        dietaryFiber: "1.6 g",
-        totalCarbohydrate: "2.7 g",
-        protein: "3.2 g",
-        fat: "0.6 g"
+    "Moringa": {
+      "GLOBAL MARKET DEMAND": "Moringa is recognised globally for its nutritional and medicinal properties. Indian Moringa products have seen a steady increase in international demand, with exports growing at an average annual rate of 15%. Key importers include the USA, UK, and Australia.",
+      "High Demand Countries": "USA, UK, Australia, Germany, Canada",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Moringa oleifera",
+        "Family": "Moringaceae",
+        "Binomial Name": "Moringa oleifera Lam.",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Tamil Nadu, Andhra Pradesh",
+        "Shelf Life": "12–24 months",
+        "Availability": "Year-round",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present",
-        "Vitamin K": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Rich in antioxidants, supports immune system, reduces inflammation",
+        "Uses": "Dietary supplements, functional foods, personal care products"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "64 kcal",
+        "Dietary Fiber": "2 g",
+        "Total Carbohydrate": "8.3 g",
+        "Protein": "9.4 g",
+        "Vitamins": "A, C, E",
+        "Minerals": "Calcium, Iron, Magnesium",
+        "Fat": "1.4 g",
+        "Moisture": "7–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Brahmi",
-      scientificName: "Bacopa monnieri",
-      hsCode: "12119029",
-      origin: "Gujarat, Kerala, West Bengal, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Enhances memory and cognitive function",
-        "Reduces anxiety",
-        "Rich in antioxidants",
-        "Supports brain health"
-      ],
-      uses: [
-        "Ayurvedic formulations",
-        "Dietary supplements",
-        "Brain tonics",
-        "Herbal teas"
-      ],
-      nutritionFacts: {
-        calories: "50 kcal",
-        dietaryFiber: "1.8 g",
-        totalCarbohydrate: "8.5 g",
-        protein: "2.0 g",
-        fat: "0.5 g"
+    "Turmeric": {
+      "GLOBAL MARKET DEMAND": "India is the largest exporter of turmeric, accounting for approximately 67% of global exports as of 2023. The USA is the largest consumer of Indian turmeric, with growing demand in countries like Malaysia and the UAE.",
+      "High Demand Countries": "USA, Malaysia, UAE, UK, Germany",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Curcuma longa",
+        "Family": "Zingiberaceae",
+        "Binomial Name": "Curcuma longa L.",
+        "HS Code": "09103030",
+        "Origin": "Gujarat, Andhra Pradesh, Tamil Nadu",
+        "Shelf Life": "24 months",
+        "Availability": "January to June",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin B1": "Present",
-        "Vitamin B2": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Anti-inflammatory, antioxidant, supports joint health",
+        "Uses": "Culinary spice, dietary supplements, cosmetics"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Zinc": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "354 kcal",
+        "Dietary Fiber": "21 g",
+        "Total Carbohydrate": "65 g",
+        "Protein": "8 g",
+        "Vitamins": "C, B6",
+        "Minerals": "Iron, Potassium, Manganese",
+        "Fat": "10 g",
+        "Moisture": "6–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Kalmegh",
-      scientificName: "Andrographis paniculata",
-      hsCode: "12119029",
-      origin: "Gujarat, Madhya Pradesh, Karnataka, Uttar Pradesh, India",
-      availability: "March to November",
-      packaging: "25kg / 50kg PP bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Liver detoxifier",
-        "Boosts immunity",
-        "Antiviral properties",
-        "Reduces inflammation",
-        "Helps in fever"
-      ],
-      uses: [
-        "Extracts",
-        "Capsules",
-        "Ayurvedic decoctions",
-        "Nutraceuticals"
-      ],
-      nutritionFacts: {
-        calories: "63 kcal",
-        dietaryFiber: "2.8 g",
-        totalCarbohydrate: "13.4 g",
-        protein: "2.9 g",
-        fat: "0.4 g"
+    "Giloy": {
+      "GLOBAL MARKET DEMAND": "Giloy has seen a steady increase in global demand due to its immune-boosting properties. India leads the world in Giloy exports, with significant shipments to the USA, Canada, and Australia.",
+      "High Demand Countries": "USA, Canada, Australia, UAE, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Tinospora cordifolia",
+        "Family": "Menispermaceae",
+        "Binomial Name": "Tinospora cordifolia (Willd.) Hook.f. & Thomson",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Maharashtra, Kerala",
+        "Shelf Life": "24 months",
+        "Availability": "Year-round",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Enhances immunity, detoxifies body, supports liver health",
+        "Uses": "Herbal supplements, Ayurvedic formulations, health tonics"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Potassium": "Present",
-        "Iron": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "290 kcal",
+        "Dietary Fiber": "20 g",
+        "Total Carbohydrate": "50 g",
+        "Protein": "5 g",
+        "Vitamins": "A, C",
+        "Minerals": "Calcium, Phosphorus",
+        "Fat": "0.5 g",
+        "Moisture": "8–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Arjuna",
-      scientificName: "Terminalia arjuna",
-      hsCode: "12119099",
-      origin: "Gujarat, Maharashtra, Madhya Pradesh, Chhattisgarh, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP or jute bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Supports cardiovascular health",
-        "Regulates blood pressure",
-        "Rich in antioxidants",
-        "Anti-inflammatory"
-      ],
-      uses: [
-        "Capsules",
-        "Powders",
-        "Tea blends",
-        "Ayurvedic formulations"
-      ],
-      nutritionFacts: {
-        calories: "52 kcal",
-        dietaryFiber: "3.2 g",
-        totalCarbohydrate: "10.4 g",
-        protein: "1.8 g",
-        fat: "0.3 g"
+    "Tulsi": {
+      "GLOBAL MARKET DEMAND": "Tulsi, revered as the “Queen of Herbs,” holds a prominent position in the global herbal market due to its immune-boosting, anti-inflammatory, and adaptogenic properties. It's extensively exported to the USA, Canada, Germany, and Australia, primarily used in teas, supplements, and Ayurvedic formulations.",
+      "High Demand Countries": "USA, Canada, Germany, Australia, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Ocimum sanctum",
+        "Family": "Lamiaceae",
+        "Binomial Name": "Ocimum sanctum L.",
+        "HS Code": "12119099",
+        "Origin": "Gujarat, Madhya Pradesh, Uttar Pradesh",
+        "Shelf Life": "12–18 months",
+        "Availability": "October to March",
+        "Packaging": "20kg / 25kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin B Complex": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Boosts immunity, reduces stress, relieves cold & cough",
+        "Uses": "Herbal teas, immunity boosters, Ayurvedic tonics, extracts"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Magnesium": "Present",
-        "Zinc": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "233 kcal",
+        "Dietary Fiber": "17.5 g",
+        "Total Carbohydrate": "38.3 g",
+        "Protein": "5.2 g",
+        "Vitamins": "A, C, K",
+        "Minerals": "Calcium, Iron, Zinc",
+        "Fat": "4.5 g",
+        "Moisture": "10–12%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Safed Musli",
-      scientificName: "Chlorophytum borivilianum",
-      hsCode: "12119099",
-      origin: "Gujarat, Madhya Pradesh, Rajasthan, Maharashtra, India",
-      availability: "May to December",
-      packaging: "25kg / 50kg fiber drum or vacuum pack",
-      shelfLife: "18–24 months",
-      healthBenefits: [
-        "Acts as a natural aphrodisiac",
-        "Boosts vitality and strength",
-        "Enhances stamina",
-        "Improves immunity"
-      ],
-      uses: [
-        "Capsules",
-        "Powders",
-        "Health supplements",
-        "Herbal energy drinks"
-      ],
-      nutritionFacts: {
-        calories: "78 kcal",
-        dietaryFiber: "4.5 g",
-        totalCarbohydrate: "16 g",
-        protein: "4.2 g",
-        fat: "0.6 g"
+    "Brahmi": {
+      "GLOBAL MARKET DEMAND": "Brahmi is a celebrated nootropic herb known for enhancing memory and brain function. The USA, South Korea, Germany, and Thailand are major importers. It is widely used in herbal capsules, mental health tonics, and cognitive health supplements.",
+      "High Demand Countries": "USA, South Korea, Germany, Thailand, Canada",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Bacopa monnieri",
+        "Family": "Plantaginaceae",
+        "Binomial Name": "Bacopa monnieri (L.) Pennell",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Uttar Pradesh, Bihar",
+        "Shelf Life": "12–18 months",
+        "Availability": "Year-round (with peak in monsoon)",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin B1": "Present",
-        "Vitamin B2": "Present",
-        "Vitamin C": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Enhances memory, relieves anxiety, supports brain health",
+        "Uses": "Brain supplements, Ayurvedic syrups, herbal tablets"
       },
-      minerals: {
-        "Potassium": "Present",
-        "Magnesium": "Present",
-        "Calcium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "265 kcal",
+        "Dietary Fiber": "11 g",
+        "Total Carbohydrate": "42 g",
+        "Protein": "6.3 g",
+        "Vitamins": "A, B-complex",
+        "Minerals": "Iron, Zinc, Manganese",
+        "Fat": "2.1 g",
+        "Moisture": "8–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Senna Leaves",
-      scientificName: "Cassia angustifolia",
-      hsCode: "12119029",
-      origin: "Gujarat, Rajasthan, Tamil Nadu, Andhra Pradesh, India",
-      availability: "April to December",
-      packaging: "25kg / 50kg PP Bags, Paper Bags, or Bale Packing",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Natural laxative",
-        "Relieves constipation",
-        "Detoxifies the body",
-        "Aids in weight loss"
-      ],
-      uses: [
-        "Herbal teas",
-        "Capsules",
-        "Powders",
-        "Ayurvedic laxatives"
-      ],
-      nutritionFacts: {
-        calories: "44 kcal",
-        dietaryFiber: "6.5 g",
-        totalCarbohydrate: "10 g",
-        protein: "2.1 g",
-        fat: "0.4 g"
+    "Shatavari": {
+      "GLOBAL MARKET DEMAND": "Shatavari is in high global demand for its benefits in women's reproductive health, lactation support, and hormonal balance. The herb is most popular in the USA, UK, Australia, and the Middle East. It is a key ingredient in herbal tonics and female wellness formulations.",
+      "High Demand Countries": "USA, UK, Australia, UAE, Canada",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Asparagus racemosus",
+        "Family": "Asparagaceae",
+        "Binomial Name": "Asparagus racemosus Willd.",
+        "HS Code": "12119044",
+        "Origin": "Gujarat, Maharashtra, Madhya Pradesh",
+        "Shelf Life": "24 months",
+        "Availability": "November to March",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin B6": "Present",
-        "Vitamin C": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Balances hormones, enhances fertility, supports lactation",
+        "Uses": "Herbal powders, capsules, Ayurvedic syrups"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "320 kcal",
+        "Dietary Fiber": "9.6 g",
+        "Total Carbohydrate": "55 g",
+        "Protein": "8.1 g",
+        "Vitamins": "A, C, E",
+        "Minerals": "Iron, Zinc, Calcium",
+        "Fat": "2.7 g",
+        "Moisture": "7–9%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Gokhru",
-      scientificName: "Tribulus terrestris",
-      hsCode: "12119094",
-      origin: "Gujarat, Rajasthan, Madhya Pradesh, Uttar Pradesh, India",
-      availability: "February to November",
-      packaging: "25kg / 50kg PP bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Supports urinary health",
-        "Boosts testosterone",
-        "Improves libido",
-        "Enhances physical performance"
-      ],
-      uses: [
-        "Powder",
-        "Capsules",
-        "Herbal supplements",
-        "Ayurvedic decoctions"
-      ],
-      nutritionFacts: {
-        calories: "65 kcal",
-        dietaryFiber: "4.2 g",
-        totalCarbohydrate: "14.5 g",
-        protein: "3.2 g",
-        fat: "0.4 g"
+    "Kalmegh": {
+      "GLOBAL MARKET DEMAND": "Kalmegh, often referred to as the \"King of Bitters,\" is widely recognized for its powerful immune-boosting and liver-protective properties. Global demand has surged due to its use in Ayurvedic and traditional Chinese medicine, especially for treating infections, liver disorders, and fever. Major markets include the USA, Germany, China, South Korea, and the UAE. The demand spikes during seasonal flu and wellness supplement booms.",
+      "High Demand Countries": "USA, Germany, China, South Korea, UAE",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Andrographis paniculata",
+        "Family": "Acanthaceae",
+        "Binomial Name": "Andrographis paniculata (Burm.f.) Wall. ex Nees",
+        "HS Code": "12119029",
+        "Origin": "Gujarat, Maharashtra, Madhya Pradesh",
+        "Shelf Life": "24 months",
+        "Availability": "July to October",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Boosts immunity, supports liver health, combats infections, anti-inflammatory",
+        "Uses": "Ayurvedic medicines, herbal supplements, immunity boosters, liver tonics"
       },
-      minerals: {
-        "Iron": "Present",
-        "Magnesium": "Present",
-        "Potassium": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "290 kcal",
+        "Dietary Fiber": "32 g",
+        "Total Carbohydrate": "45 g",
+        "Protein": "8.1 g",
+        "Vitamins": "C, A",
+        "Minerals": "Iron, Calcium, Phosphorus",
+        "Fat": "2.5 g",
+        "Moisture": "6–9%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Amla",
-      scientificName: "Phyllanthus emblica",
-      hsCode: "12119029",
-      origin: "Gujarat, Uttar Pradesh, Madhya Pradesh, Maharashtra, India",
-      availability: "September to March",
-      packaging: "25kg / 50kg PP or jute bags",
-      shelfLife: "12 to 18 months (dried)",
-      healthBenefits: [
-        "Powerful antioxidant",
-        "Rich source of Vitamin C",
-        "Boosts immunity",
-        "Good for hair and skin"
-      ],
-      uses: [
-        "Juices",
-        "Powder",
-        "Tablets",
-        "Hair oil",
-        "Cosmetics",
-        "Ayurvedic formulations"
-      ],
-      nutritionFacts: {
-        calories: "44 kcal",
-        dietaryFiber: "4.3 g",
-        totalCarbohydrate: "10.2 g",
-        protein: "0.9 g",
-        fat: "0.5 g"
+    "Amla": {
+      "GLOBAL MARKET DEMAND": "Amla, rich in Vitamin C and antioxidants, is in high demand across global markets for its role in immunity-boosting, anti-aging, and hair care products. Key importing countries include the USA, Canada, UAE, Germany, and Australia. Its dried and powdered forms are especially popular in nutraceuticals and Ayurvedic formulations.",
+      "High Demand Countries": "USA, Canada, UAE, Germany, Australia",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Phyllanthus emblica",
+        "Family": "Phyllanthaceae",
+        "Binomial Name": "Phyllanthus emblica L.",
+        "HS Code": "12119099",
+        "Origin": "Gujarat, Maharashtra, Madhya Pradesh",
+        "Shelf Life": "24 months",
+        "Availability": "November to March",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin B5": "Present",
-        "Vitamin B6": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Enhances immunity, promotes hair growth, aids digestion",
+        "Uses": "Herbal supplements, hair oils, Ayurvedic tonics, powders"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Phosphorus": "Present",
-        "Iron": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "58 kcal",
+        "Dietary Fiber": "3.4 g",
+        "Total Carbohydrate": "13.7 g",
+        "Protein": "1 g",
+        "Vitamins": "C, A",
+        "Minerals": "Calcium, Iron, Phosphorus",
+        "Fat": "0.5 g",
+        "Moisture": "82%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Shatavari",
-      scientificName: "Asparagus racemosus",
-      hsCode: "12119039",
-      origin: "Gujarat, Rajasthan, Maharashtra, Himachal Pradesh, India",
-      availability: "March to November",
-      packaging: "25kg / 50kg PP or paper bags",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Supports female reproductive health",
-        "Hormone balancing",
-        "Digestive tonic",
-        "Boosts lactation"
-      ],
-      uses: [
-        "Herbal powders",
-        "Capsules",
-        "Ayurvedic formulations",
-        "Wellness supplements"
-      ],
-      nutritionFacts: {
-        calories: "58 kcal",
-        dietaryFiber: "3.6 g",
-        totalCarbohydrate: "12 g",
-        protein: "4.4 g",
-        fat: "0.5 g"
+    "Arjuna": {
+      "GLOBAL MARKET DEMAND": "Arjuna bark is widely used in cardiovascular health supplements, especially in European and Middle Eastern countries. Demand is high due to its natural properties that support heart function and blood circulation. Herbal companies and Ayurvedic wellness brands in the UK, USA, and UAE are key buyers.",
+      "High Demand Countries": "UK, USA, UAE, France, Germany",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Terminalia arjuna",
+        "Family": "Combretaceae",
+        "Binomial Name": "Terminalia arjuna Wight & Arn.",
+        "HS Code": "12119094",
+        "Origin": "Gujarat, Maharashtra, Tamil Nadu",
+        "Shelf Life": "24 months",
+        "Availability": "Year-round",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin B6": "Present",
-        "Vitamin C": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Supports heart health, reduces cholesterol, antioxidant-rich",
+        "Uses": "Capsules, heart tonics, powders"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Magnesium": "Present",
-        "Iron": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "374 kcal",
+        "Dietary Fiber": "21 g",
+        "Total Carbohydrate": "55 g",
+        "Protein": "7.8 g",
+        "Vitamins": "C, E",
+        "Minerals": "Zinc, Calcium, Magnesium",
+        "Fat": "3.2 g",
+        "Moisture": "6–8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Giloy",
-      scientificName: "Tinospora cordifolia",
-      hsCode: "12119029",
-      origin: "Gujarat, Maharashtra, Madhya Pradesh, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per buyer’s requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Boosts immunity",
-        "Treats chronic fevers",
-        "Anti-inflammatory",
-        "Detoxifies liver",
-        "Controls blood sugar levels"
-      ],
-      uses: [
-        "Ayurvedic formulations",
-        "Herbal teas",
-        "Dietary supplements",
-        "Immunity boosters"
-      ],
-      nutritionFacts: {
-        calories: "60 kcal",
-        dietaryFiber: "2.4 g",
-        totalCarbohydrate: "13 g",
-        protein: "2.5 g",
-        fat: "0.1 g"
+    "Gokhru": {
+      "GLOBAL MARKET DEMAND": "Gokhru is globally recognized for its use in male wellness, kidney function support, and energy-boosting formulations. It is widely exported to the USA, Canada, Australia, and European countries in dried and powdered forms.",
+      "High Demand Countries": "USA, Australia, Germany, Canada, UK",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Tribulus terrestris",
+        "Family": "Zygophyllaceae",
+        "Binomial Name": "Tribulus terrestris L.",
+        "HS Code": "12119092",
+        "Origin": "Gujarat, Rajasthan, Madhya Pradesh",
+        "Shelf Life": "24 months",
+        "Availability": "September to March",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin B1": "Present",
-        "Vitamin B2": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Boosts stamina, supports urinary health, hormone balance",
+        "Uses": "Herbal capsules, Ayurvedic powders, liquid extracts"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Phosphorus": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "395 kcal",
+        "Dietary Fiber": "12 g",
+        "Total Carbohydrate": "61 g",
+        "Protein": "14 g",
+        "Vitamins": "B-complex",
+        "Minerals": "Calcium, Iron, Phosphorus",
+        "Fat": "3 g",
+        "Moisture": "6–8%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     },
-    {
-      name: "Ashwagandha",
-      scientificName: "Withania somnifera",
-      hsCode: "12119029",
-      origin: "Madhya Pradesh, Rajasthan, Gujarat, India",
-      availability: "Year-round",
-      packaging: "25kg / 50kg PP bags or as per buyer’s requirement",
-      shelfLife: "24 months",
-      healthBenefits: [
-        "Adaptogen",
-        "Reduces stress and anxiety",
-        "Boosts energy",
-        "Supports immune function",
-        "Enhances stamina"
-      ],
-      uses: [
-        "Ayurvedic formulations",
-        "Dietary supplements",
-        "Herbal teas",
-        "Health tonics"
-      ],
-      nutritionFacts: {
-        calories: "245 kcal",
-        dietaryFiber: "32 g",
-        totalCarbohydrate: "49 g",
-        protein: "3.7 g",
-        fat: "0.3 g"
+    "Safed Musli": {
+      "GLOBAL MARKET DEMAND": "Safed Musli is highly valued as a natural aphrodisiac and health tonic. Export demand is rising in nutraceutical sectors across the USA, UAE, China, and Australia. It’s typically exported in dried root or powdered form for herbal formulations and wellness supplements.",
+      "High Demand Countries": "USA, UAE, Australia, China, South Africa",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Chlorophytum borivilianum",
+        "Family": "Asparagaceae",
+        "Binomial Name": "Chlorophytum borivilianum Santapau & Fernand.",
+        "HS Code": "12119043",
+        "Origin": "Gujarat, Madhya Pradesh, Chhattisgarh",
+        "Shelf Life": "24 months",
+        "Availability": "November to March",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
       },
-      vitamins: {
-        "Vitamin C": "Present",
-        "Vitamin E": "Present"
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Enhances strength, boosts fertility, revitalizes energy",
+        "Uses": "Capsules, powders, energy supplements"
       },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present"
-      }
+      "INGRIDIENCE": {
+        "Calories": "345 kcal",
+        "Dietary Fiber": "9.6 g",
+        "Total Carbohydrate": "55 g",
+        "Protein": "12.5 g",
+        "Vitamins": "A, C",
+        "Minerals": "Potassium, Calcium, Iron",
+        "Fat": "2.5 g",
+        "Moisture": "7–9%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
+    },
+    "Senna Leaves": {
+      "GLOBAL MARKET DEMAND": "Senna leaves are a prominent herbal laxative in pharmaceutical industries worldwide. Their demand is robust in USA, UK, Germany, and Middle Eastern countries for natural constipation relief products and detox teas.",
+      "High Demand Countries": "USA, UK, Germany, Egypt, UAE",
+      "SPECIFICATIONS": {
+        "Scientific Name": "Cassia angustifolia",
+        "Family": "Fabaceae",
+        "Binomial Name": "Cassia angustifolia Vahl",
+        "HS Code": "12119086",
+        "Origin": "Gujarat, Rajasthan, Tamil Nadu",
+        "Shelf Life": "24 months",
+        "Availability": "October to April",
+        "Packaging": "25kg / 50kg PP or HDPE Bags"
+      },
+      "USAGE AND BENEFITS": {
+        "Health Benefits": "Natural laxative, promotes colon cleansing",
+        "Uses": "Herbal teas, detox powders, laxative tablets"
+      },
+      "INGRIDIENCE": {
+        "Calories": "290 kcal",
+        "Dietary Fiber": "12 g",
+        "Total Carbohydrate": "50 g",
+        "Protein": "8 g",
+        "Vitamins": "C, B6",
+        "Minerals": "Calcium, Magnesium, Potassium",
+        "Fat": "1 g",
+        "Moisture": "8–10%"
+      },
+      "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     }
-  ],
+  },
   spices:
   {
     "Cumin Seeds": {
@@ -1178,8 +1064,9 @@ export const productUrltoNameMapping: Record<string, string> = {
   "spices": "Spices",
   "oilseeds": "Oil Seeds",
 
+  "psyllium-husk": "Psyllium Husk",
   "mulethi": "Mulethi",
-  "neem": "Neem",
+  "neem-leaves": "Neem Leaves",
   "ashwagandha": "Ashwagandha",
   "moringa": "Moringa",
   "turmeric": "Turmeric",
@@ -1193,6 +1080,7 @@ export const productUrltoNameMapping: Record<string, string> = {
   "gokhru": "Gokhru",
   "safed-musli": "Safed Musli",
   "senna-leaves": "Senna Leaves",
+  "neem": "Neem",
 
   "cumin-seeds": "Cumin Seeds",
   "coriander-seeds": "Coriander Seeds",
@@ -1215,8 +1103,9 @@ export const productUrltoNameMapping: Record<string, string> = {
 }
 
 export const productNametoUrlMapping: Record<string, string> = {
+  "Psyllium Husk": "psyllium-husk",
   "Mulethi": "mulethi",
-  "Neem": "neem",
+  "Neem Leaves": "neem-leaves",
   "Ashwagandha": "ashwagandha",
   "Moringa": "moringa",
   "Turmeric": "turmeric",
@@ -1230,7 +1119,8 @@ export const productNametoUrlMapping: Record<string, string> = {
   "Gokhru": "gokhru",
   "Safed Musli": "safed-musli",
   "Senna Leaves": "senna-leaves",
-
+  "Neem": "neem",
+  
   "Cumin Seeds": "cumin-seeds",
   "Coriander Seeds": "coriander-seeds",
   "Fennel Seeds": "fennel-seeds",
