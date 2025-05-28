@@ -3,8 +3,8 @@ import { VscDebugBreakpointDataUnverified } from "react-icons/vsc";
 
 export default function AboutUs() {
   return (
-    <main className="text-gray-800 ">
-      <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+    <main className="text-gray-800">
+      <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
         <img
           src="background/about.jpg"
           alt="About Us Banner"

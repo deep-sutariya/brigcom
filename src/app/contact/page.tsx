@@ -7,15 +7,21 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
-      <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+      <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
         <img
           src="background/contact.jpg"
           alt="Contact Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute z-30 inset-0 bg-black/40 flex flex-col justify-center px-6 md:px-48 text-white ">
-          <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">Contact Us</h1>
-          <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3"><Link href="/">HOME</Link><span>/</span><h3>CONTACT</h3></div>
+          <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">
+            Contact Us
+          </h1>
+          <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
+            <Link href="/">HOME</Link>
+            <span>/</span>
+            <h3>CONTACT</h3>
+          </div>
         </div>
       </div>
 
@@ -25,15 +31,21 @@ export default function Contact() {
           <div className="space-y-5 text-gray-700 font-details">
             <p className="flex items-start gap-2 max-w-sm">
               <MapPin className="w-10 h-8 text-[#169EBE]" />
-              {FooterData.Contact[0].detail}
+              <Link href={FooterData.Contact[0].link}>
+                {FooterData.Contact[0].detail}
+              </Link>
             </p>
             <p className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-[#169EBE]" />
-              {FooterData.Contact[2].detail}
+              <Link href={FooterData.Contact[2].link}>
+                {FooterData.Contact[2].detail}
+              </Link>
             </p>
             <p className="flex items-center gap-2">
               <Phone className="w-5 h-5 text-[#169EBE]" />
-               {FooterData.Contact[1].detail}
+              <Link href={FooterData.Contact[1].link}>
+                {FooterData.Contact[1].detail}
+              </Link>
             </p>
           </div>
         </div>

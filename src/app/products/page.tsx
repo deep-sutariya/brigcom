@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <div className="w-full mx-auto">
-        <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+        <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
           <img
             src="background/product.jpg"
             alt="Products Banner"
@@ -29,12 +29,12 @@ export default function Home() {
           <div className="mt-1 lg:mt-2 border-b-3 rounded-full max-w-[30%] mx-auto border-[#169EBE]"></div>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-x-10 py-4 px-10 md:px-20 lg:px-28 my-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-4 px-10 md:px-20 lg:px-28 my-20">
         <ProductCard
           imageUrl="/4.jpg"
           title="Ayurveda / Natural Herbs"
           link="/products/ayurvedaandherbs"
-          className=" w-full md:w-2/6"
+          className=""
           type="productType"
         />
         {/* <ProductCard imageUrl="/4.jpg" title="Oil Seeds" link="/products/oilseeds" /> */}
@@ -42,7 +42,14 @@ export default function Home() {
           imageUrl="/4.jpg"
           title="Spices"
           link="/products/spices"
-          className=" w-full md:w-2/6"
+          className=""
+          type="productType"
+        />
+        <ProductCard
+          imageUrl="/4.jpg"
+          title="Ayurvedic & Nutraceutical Supplements"
+          link="/products/ayurvedicandnutraceutical"
+          className=""
           type="productType"
         />
         {/* <ProductCard imageUrl="/4.jpg" title="Frozen & IQF" link="/" /> */}

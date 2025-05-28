@@ -5,7 +5,7 @@ export default function Certificates() {
   return (
     <main>
       <div className="w-full mx-auto">
-        <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+        <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
           <img
             src="background/certificate.jpg"
             alt="Certificate Banner"

@@ -11,6 +11,7 @@ type FooterItem = {
 type ContactItem = {
   name: string;
   detail: string;
+  link: string;
   type: string;
 };
 
@@ -42,13 +43,13 @@ export default function FooterItems({ heading, details, contact }: Props) {
 
       <div className="flex flex-col gap-y-4">
         {contact?.length
-          ? contact.map(({ name, detail, type }) => {
+          ? contact.map(({ name, detail, link, type }) => {
               return (
                 <div className="flex gap-x-3 font-semibold text-sm sm:text-base" key={type}>
                   <div className=" text-lg pt-1">{getIcon(type)}</div>
                   <div className=" flex flex-col gap-y-1">
                     <div className=" text-gray-100 text-base">{name}</div>
-                    {type=="email" ? <Link href={detail} className="hover:text-gray-300 text-gray-300/90">{detail}</Link> : <div className="hover:text-gray-300 text-gray-300/90" >{detail}</div>}
+                      <Link href={link} className="hover:text-gray-300 text-gray-300/90"><div className="hover:text-gray-300 text-gray-300/90" >{detail}</div></Link>
                   </div>
                 </div>
               );

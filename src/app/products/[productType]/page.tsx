@@ -25,7 +25,7 @@ export default function Page() {
   return (
     <main>
       <div className="w-full mx-auto">
-        <div className="w-full h-[320px] relative overflow-hidden shadow-lg">
+        <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
           <img
             src={`/background/${productBannerName}.jpg`}
             alt="Product Type Banner"
@@ -50,7 +50,19 @@ export default function Page() {
         <div className="mt-2 lg:mt-4 border-b-3 rounded-full max-w-[30%] mx-auto border-[#169EBE]"></div>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-4 items-center justify-center gap-4 lg:gap-10 py-4 px-5 md:px-16 lg:px-28 my-10 lg:my-20">
-        {(Object.keys(productTypeData) ?? []).map(
+        {productType == "ayurvedicandnutraceutical" ? (Object.keys(productTypeData) ?? []).map(
+          (item, index) => {
+            return (
+            <ProductCard
+              key={index}
+              imageUrl="/4.jpg"
+              title={item}
+              link={`/products/${productType}`}
+              className="w-full"
+              productName={item}
+            />
+          )}
+        ) : (Object.keys(productTypeData) ?? []).map(
           (item, index) => {
             return (
             <ProductCard
@@ -62,7 +74,7 @@ export default function Page() {
               productName={item}
             />
           )}
-        )}
+        ) }
       </div>
     </main>
   );

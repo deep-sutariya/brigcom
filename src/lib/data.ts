@@ -17,9 +17,9 @@ export const FooterData = {
     { name: "Mumbai", link: "/mumbai" },
   ],
   Contact: [
-    { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", type: "address" },
-    { name: "Phone Number:", detail: "+91 75676 12902", type: "phone" },
-    { name: "Email:", detail: "brigcom.enterprise@gmail.com", type: "email" }
+    { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9", type: "address" },
+    { name: "Phone Number:", detail: "+91 75676 12902", link: "tel:+917567612902", type: "phone" },
+    { name: "Email:", detail: "brigcom.enterprise@gmail.com", link: "mailto:brigcom.enterprise@gmail.com", type: "email" }
   ]
 
 }
@@ -1055,7 +1055,50 @@ export const productData = {
         "Manganese": "Present"
       }
     }
-  ]
+  ],
+  ayurvedicandnutraceutical: {
+    "capsules": [
+      "SLEEP AND MIGRAINE CAPSULE",
+      "33 HERBS UNIQUE CAPSULE",
+      "PLANT BASED B12 CAPSULE",
+      "TURMERIC CURCUMIN CAPSULE",
+      "GOKHRU CAPSULE",
+      "BIOTIN CAPSULE",
+      "ASHWAGANDA CAPSULE",
+      "ASHWAGANDAKSM 66 CAPSULE",
+      "MORINGA CAPSULE",
+      "IMMUNITY CAPSULE",
+      "DIABETIC CARE CAPSULE",
+      "PLANT BASED VITAMIN D3+K2 CAPSULE",
+      "PLANT BASED OMEGA 3 CAPSULE",
+      "PLANT BASED VITAMIN D3 CAPSULE"
+    ],
+    "tablets": [
+      "MULTIVITAMIN TABLETS FOR MEN AND WOMEN",
+      "GOKHRU TABLETS",
+      "CALCIUM, IRON AND MAGNESIUM TABLET",
+      "VITAMIN D3 TABLETS",
+      "PREBIOTIC AND PROBIOTIC TABLETS",
+      "PLANT BASED MULTIVITAMIN TABLET",
+      "VITAMIN C TABLETS"
+    ],
+    "gummies": [
+      "APPLE CIDER VINEGAR GUMMIES",
+      "POMEGRANATE BEET ROOT GUMMIES",
+      "BRAIN BOOSTER GUMMIES",
+      "TURMERIC CURCUMIN GUMMIES",
+      "STRESS RELIEF GUMMIES",
+      "DETOX GUMMIES",
+      "OMEGA 3-6-9 GUMMIES",
+      "ASHWAGANDHA GUMMIES",
+      "CALCIUM AND VITAMIN D2 GUMMIES",
+      "MULTIVITAMIN GUMMIES",
+      "IMMUNITY BOOSTER",
+      "IRON GUMMIES",
+      "ACTIVATED CHARCOL"
+    ]
+  }
+
 };
 
 
@@ -1063,6 +1106,7 @@ export const productUrltoNameMapping: Record<string, string> = {
   "ayurvedaandherbs": "Ayurveda / Natural Herbs",
   "spices": "Spices",
   "oilseeds": "Oil Seeds",
+  "Ayurvedic and Nutraceutical Supplements": "ayurvedicandnutraceutical",
 
   "psyllium-husk": "Psyllium Husk",
   "mulethi": "Mulethi",
@@ -1120,7 +1164,7 @@ export const productNametoUrlMapping: Record<string, string> = {
   "Safed Musli": "safed-musli",
   "Senna Leaves": "senna-leaves",
   "Neem": "neem",
-  
+
   "Cumin Seeds": "cumin-seeds",
   "Coriander Seeds": "coriander-seeds",
   "Fennel Seeds": "fennel-seeds",

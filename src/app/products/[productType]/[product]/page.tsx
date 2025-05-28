@@ -12,9 +12,6 @@ export default function ProductPage() {
   const productName =
     productUrltoNameMapping[product as keyof typeof productUrltoNameMapping];
   
-  console.log("productName", productData.spices);
-  
-
   let productObj;
   if (productType === "ayurvedaandherbs") {
     productObj = productData.ayurvedaandherbs[productName as keyof typeof productData.ayurvedaandherbs];
