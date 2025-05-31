@@ -7,14 +7,12 @@ export const FooterData = {
     { name: "Contact Us", link: "/contact" },
   ],
   Products: [
-    { name: "Ayurveda / Natural Herbs", link: "/ayurvedaandherbs" },
-    { name: "Spices", link: "/spices" },
-    { name: "Oilseeds", link: "/oilseeds" },
-    { name: "Frozen & IQF", link: "/" }
+    { name: "Ayurveda / Natural Herbs", link: "/products/ayurvedaandherbs" },
+    { name: "Spices", link: "/products/spices" },
+    { name: "Supplements", link: "/products/ayurvedicandnutraceutical" },
   ],
   Branches: [
-    { name: "Surat", link: "/surat" },
-    { name: "Mumbai", link: "/mumbai" },
+    { name: "Surat", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9" }
   ],
   Contact: [
     { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9", type: "address" },
@@ -614,7 +612,7 @@ export const productData = {
       "GLOBAL MARKET DEMAND": "Indian fenugreek seeds are exported widely for culinary and medicinal uses. Its bitter-sweet taste and rich saponin content make it popular in the food and pharmaceutical industries. High demand is seen from Egypt, USA, Nepal, Bangladesh, and UAE. The product experiences stable demand throughout the year, with spikes during winter and flu season.",
       "High Demand Countries": "Egypt, USA, Nepal, Bangladesh, UAE",
       "SPECIFICATIONS": {
-        "Scientific Name": "Trigonella foenum-graecum",
+        "Scientific Name": "Trigonella foenum",
         "Family": "Fabaceae",
         "Binomial Name": "Trigonella foenum-graecum L.",
         "HS Code": "09109912",
@@ -769,7 +767,7 @@ export const productData = {
         "Packaging": "25kg / 50kg PP or paper bags"
       },
       "USAGE AND BENEFITS": {
-        "Health Benefits": "Treats indigestion, cough, and colds; antibacterial properties",
+        "Health Benefits": "Treats indigestion cough and colds, antibacterial properties",
         "Uses": "Pickles, spice blends, Ayurvedic medicine"
       },
       "INGRIDIENCE": {
@@ -872,190 +870,6 @@ export const productData = {
       "EXPORT PORTS": "JNPT, Hazira, Mundra TO Anywhere"
     }
   },
-  oilseeds: [
-    {
-      name: "Sesame Seeds (Natural & Hulled)",
-      scientificName: "Sesamum indicum",
-      hsCode: "12074090",
-      origin: "Gujarat, Rajasthan, Uttar Pradesh",
-      availability: "October to March",
-      packaging: "25kg / 50kg PP or Paper Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "Boosts heart health",
-        "Excellent source of healthy fats",
-        "High in calcium and magnesium",
-        "Supports bone and skin health",
-        "Natural antioxidant"
-      ],
-      uses: [
-        "Oil extraction",
-        "Bakery and confectionery",
-        "Tahini paste",
-        "Snacks and seasoning"
-      ],
-      nutritionFacts: {
-        calories: "573 kcal",
-        dietaryFiber: "11.8 g",
-        totalCarbohydrate: "23 g",
-        protein: "17 g",
-        fat: "49 g"
-      },
-      vitamins: {
-        "Vitamin B1": "Present",
-        "Vitamin B3": "Present",
-        "Vitamin E": "Present"
-      },
-      minerals: {
-        "Calcium": "Present",
-        "Iron": "Present",
-        "Magnesium": "Present"
-      }
-    },
-    {
-      name: "Groundnut (Peanuts)",
-      scientificName: "Arachis hypogaea",
-      hsCode: "12024290",
-      origin: "Gujarat, Andhra Pradesh",
-      availability: "November to April",
-      packaging: "25kg / 50kg PP or Jute Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "High in protein and healthy fats",
-        "Supports heart health",
-        "Energy booster",
-        "Rich in antioxidants",
-        "Aids in weight management"
-      ],
-      uses: [
-        "Oil extraction",
-        "Roasted snacks",
-        "Peanut butter production",
-        "Animal feed"
-      ],
-      nutritionFacts: {
-        calories: "567 kcal",
-        dietaryFiber: "8.5 g",
-        totalCarbohydrate: "16 g",
-        protein: "25 g",
-        fat: "49 g"
-      },
-      vitamins: {
-        "Vitamin E": "Present",
-        "Vitamin B3": "Present",
-        "Vitamin B6": "Present"
-      },
-      minerals: {
-        "Magnesium": "Present",
-        "Phosphorus": "Present",
-        "Zinc": "Present"
-      }
-    },
-    {
-      name: "Castor Seeds",
-      scientificName: "Ricinus communis",
-      hsCode: "12073090",
-      origin: "Gujarat",
-      availability: "December to March",
-      packaging: "25kg / 50kg PP Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "Rich in ricinoleic acid (used in castor oil)",
-        "Natural anti-inflammatory",
-        "Laxative and detoxifying agent",
-        "Supports hair and skin health"
-      ],
-      uses: [
-        "Industrial oil extraction",
-        "Pharmaceuticals",
-        "Lubricants and cosmetics"
-      ],
-      nutritionFacts: {
-        calories: "500+ kcal",
-        dietaryFiber: "Data not specified",
-        totalCarbohydrate: "Data not specified",
-        protein: "Present",
-        fat: "High in unsaturated fatty acids"
-      },
-      vitamins: {},
-      minerals: {
-        "Used for extraction": "Yes"
-      }
-    },
-    {
-      name: "Niger Seeds",
-      scientificName: "Guizotia abyssinica",
-      hsCode: "12079990",
-      origin: "Gujarat & Madhya Pradesh",
-      availability: "January to March",
-      packaging: "25kg / 50kg PP Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "Rich in linoleic acid",
-        "Helps maintain cholesterol levels",
-        "Source of antioxidants",
-        "Supports immune health"
-      ],
-      uses: [
-        "Oil extraction",
-        "Bird feed",
-        "Traditional cooking oil"
-      ],
-      nutritionFacts: {
-        calories: "515 kcal",
-        dietaryFiber: "10 g",
-        totalCarbohydrate: "34 g",
-        protein: "20 g",
-        fat: "42 g"
-      },
-      vitamins: {
-        "B-complex": "Present"
-      },
-      minerals: {
-        "Potassium": "Present",
-        "Calcium": "Present",
-        "Iron": "Present"
-      }
-    },
-    {
-      name: "Mustard Seeds (Black & Yellow)",
-      scientificName: "Brassica nigra / Brassica alba",
-      hsCode: "12075090",
-      origin: "Rajasthan & Gujarat",
-      availability: "March to May",
-      packaging: "25kg / 50kg PP or Jute Bags",
-      shelfLife: "12 months",
-      healthBenefits: [
-        "Stimulates digestion",
-        "Natural anti-inflammatory",
-        "Antibacterial and antifungal",
-        "Good for respiratory health"
-      ],
-      uses: [
-        "Oil extraction",
-        "Pickling",
-        "Spice and seasoning",
-        "Ayurvedic medicine"
-      ],
-      nutritionFacts: {
-        calories: "508 kcal",
-        dietaryFiber: "12 g",
-        totalCarbohydrate: "28 g",
-        protein: "26 g",
-        fat: "36 g"
-      },
-      vitamins: {
-        "Vitamin A": "Present",
-        "Vitamin C": "Present",
-        "Vitamin K": "Present"
-      },
-      minerals: {
-        "Selenium": "Present",
-        "Magnesium": "Present",
-        "Manganese": "Present"
-      }
-    }
-  ],
   ayurvedicandnutraceutical: {
     "capsules": [
       "SLEEP AND MIGRAINE CAPSULE",
@@ -1098,7 +912,6 @@ export const productData = {
       "ACTIVATED CHARCOL"
     ]
   }
-
 };
 
 
@@ -1106,7 +919,7 @@ export const productUrltoNameMapping: Record<string, string> = {
   "ayurvedaandherbs": "Ayurveda / Natural Herbs",
   "spices": "Spices",
   "oilseeds": "Oil Seeds",
-  "Ayurvedic and Nutraceutical Supplements": "ayurvedicandnutraceutical",
+  "ayurvedicandnutraceutical": "Ayurvedic and Nutraceutical Supplements",
 
   "psyllium-husk": "Psyllium Husk",
   "mulethi": "Mulethi",

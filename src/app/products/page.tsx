@@ -31,7 +31,7 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 py-4 px-10 md:px-20 lg:px-28 my-20">
         <ProductCard
-          imageUrl="/4.jpg"
+          imageUrl="/background/herbs.jpg"
           title="Ayurveda / Natural Herbs"
           link="/products/ayurvedaandherbs"
           className=""
@@ -39,14 +39,14 @@ export default function Home() {
         />
         {/* <ProductCard imageUrl="/4.jpg" title="Oil Seeds" link="/products/oilseeds" /> */}
         <ProductCard
-          imageUrl="/4.jpg"
+          imageUrl="/background/spices.jpg"
           title="Spices"
           link="/products/spices"
           className=""
           type="productType"
         />
         <ProductCard
-          imageUrl="/4.jpg"
+          imageUrl="/background/ayurvedicandnutraceutical.jpg"
           title="Ayurvedic & Nutraceutical Supplements"
           link="/products/ayurvedicandnutraceutical"
           className=""
