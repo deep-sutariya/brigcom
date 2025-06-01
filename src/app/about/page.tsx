@@ -35,7 +35,7 @@ export default function AboutUs() {
           <div className=" flex gap-x-2 text-2xl lg:text-4xl font-bold mb-8 sm:mb-6 text-gray-600 text-left">
             <h1>
               WELCOME TO{" "}
-              <span className="tracking-wide text-[#169EBE]/90">BRIGCOM</span>
+              <Link href="/" className="tracking-wide text-[#169EBE]/90">BRIGCOM</Link>
             </h1>
           </div>
           <div className=" flex flex-col gap-y-4 mx-auto leading-relaxed text-gray-500 text-left font-heading text-sm md:text-sm lg:text-base">

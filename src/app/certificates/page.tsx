@@ -34,7 +34,7 @@ export default function Certificates() {
           At Brigcome, quality and safety come first. We understand that when it
           comes to food handling and export, maintaining the highest standards
           of hygiene, quality, and safety is not just important it's essential.
-          That’s why at Brigcome, we strictly adhere to international food
+          That's why at Brigcome, we strictly adhere to international food
           safety protocols and conduct rigorous quality checks at every stage of
           the process.
         </div>
@@ -70,7 +70,7 @@ export default function Certificates() {
         />
         <CertificateCard
           imageUrl="/certificates/firstPage/ISO.webp"
-          link="/certificates/"
+          link="/certificates/ISO.jpg"
           title="ISO"
         />
         <CertificateCard
