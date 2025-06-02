@@ -31,7 +31,7 @@ export default function Certificates() {
       </div>
       <div className="flex flex-col items-center justify-center gap-y-6 font-main text-justify text-xs md:text-base text-gray-400 py-4 px-5 md:px-28 lg:px-48 my-10 md:my-16">
         <div>
-          At Brigcome, quality and safety come first. We understand that when it
+          At Brigcom, quality and safety come first. We understand that when it
           comes to food handling and export, maintaining the highest standards
           of hygiene, quality, and safety is not just important it's essential.
           That's why at Brigcome, we strictly adhere to international food
