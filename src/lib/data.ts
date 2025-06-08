@@ -914,11 +914,21 @@ export const productData = {
   }
 };
 
+export const popularProducts = [
+  { title: 'Ashwagandha', scientificName: 'Withania somnifera', image: '/products/Ashwagandha.webp', type: "Ayurveda / Natural Herbs" },
+  { title: 'Turmeric', scientificName: 'Curcuma longa', image: '/products/Turmeric.webp', type: "Spices" },
+  { title: 'Psyllium Husk', scientificName: 'Plantago ovata', image: '/products/Psyllium_Husk.webp', type: "Ayurveda / Natural Herbs"},
+  { title: 'Fennel Seeds', scientificName: 'Foeniculum vulgare', image: '/products/Fennel_Seeds.webp', type: "Spices" },
+  { title: 'Cumin Seeds', scientificName: 'Cuminum cyminum', image: '/products/Cumin_Seeds.webp', type: "Spices" },
+  { title: 'Neem Leaves', scientificName: 'Azadirachta indica', image: '/products/Neem_Leaves.jpg', type: "Ayurveda / Natural Herbs"},
+  { title: 'Mulethi', scientificName: 'Glycyrrhiza glabra', image: '/products/Mulethi.webp', type: "Ayurveda / Natural Herbs"},
+  { title: 'Coriander Seeds', scientificName: 'Coriandrum sativum', image: '/products/Coriander_Seeds.jpg', type: "Spices" },
+  { title: 'Nutraceutical', scientificName: 'Nutraceutical', image: '/products/Nutraceutical.webp', type: "Ayurvedic and Nutraceutical Supplements" },
+];
 
 export const productUrltoNameMapping: Record<string, string> = {
   "ayurvedaandherbs": "Ayurveda / Natural Herbs",
   "spices": "Spices",
-  "oilseeds": "Oil Seeds",
   "ayurvedicandnutraceutical": "Ayurvedic and Nutraceutical Supplements",
 
   "psyllium-husk": "Psyllium Husk",
@@ -960,6 +970,10 @@ export const productUrltoNameMapping: Record<string, string> = {
 }
 
 export const productNametoUrlMapping: Record<string, string> = {
+  "Ayurveda / Natural Herbs" : "ayurvedaandherbs",
+  "Spices": "spices",
+  "Ayurvedic and Nutraceutical Supplements": "ayurvedicandnutraceutical",
+
   "Psyllium Husk": "psyllium-husk",
   "Mulethi": "mulethi",
   "Neem Leaves": "neem-leaves",

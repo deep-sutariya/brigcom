@@ -137,6 +137,15 @@
   }
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .scrolled-logo{
   transform: scale(0.6);
   margin-top: -14px;
