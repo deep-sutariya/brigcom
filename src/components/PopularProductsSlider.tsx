@@ -40,27 +40,27 @@ export const PopularProductsSlider = () => {
   };
 
   return (
-    <div className="relative overflow-x-hidden mx-auto pt-5 z-0 min-w-screen">
+    <div className="overflow-x-hidden mx-auto z-0 w-3/6 md:min-w-screen px-28">
       <button
-          onClick={prevSlide}
-          className="absolute left-25 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 shadow p-2 rounded-full z-50 cursor-pointer"
-        >
-          <ChevronLeft className="w-6 h-6 text-gray-700" />
-        </button>
+        onClick={prevSlide}
+        className="absolute left-0 md:left-25 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 shadow p-1 md:p-2 rounded-full z-50 cursor-pointer"
+      >
+        <ChevronLeft className="w-6 h-6 text-gray-700" />
+      </button>
 
       <div
         ref={scrollRef}
-        className="flex overflow-x-auto scroll-smooth gap-4 max-w-[1078px] mx-auto px-4 no-scrollbar"
+        className="flex overflow-x-scroll scroll-smooth gap-4 max-w-[1078px] mx-auto px-4 py-10 z-10 sc"
       >
         {productList.map((product, index) => (
-          <div key={`${product.title}-${index}`} className="shrink-0 w-[250px]">
+          <div key={`${product.title}-${index}`} className="shrink-0 w-[220px] md:w-[250px]">
             <ProductCard
               imageUrl={product.image}
               title={product.title}
               productName={product.scientificName}
               className="w-full"
               link={`/products/${productNametoUrlMapping[product.type]}/${
-                productNametoUrlMapping[product.title]??""
+                productNametoUrlMapping[product.title] ?? ""
               }`}
               type="productType"
             />
@@ -69,11 +69,11 @@ export const PopularProductsSlider = () => {
       </div>
 
       <button
-          onClick={nextSlide}
-          className="absolute right-25 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 shadow p-2 rounded-full z-10 cursor-pointer"
-        >
-          <ChevronRight className="w-6 h-6 text-gray-700" />
-        </button>
+        onClick={nextSlide}
+        className="absolute right-0 md:right-25 top-1/2 -translate-y-1/2 bg-white hover:bg-gray-100 shadow p-1 md:p-2 rounded-full z-10 cursor-pointer"
+      >
+        <ChevronRight className="w-6 h-6 text-gray-700" />
+      </button>
     </div>
   );
 };

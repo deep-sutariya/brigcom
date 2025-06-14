@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const images = [
-  "/background/about.jpg",
-  "/background/contact.jpg",
-  "/background/home.jpg",
+  "/background/slider1.jpg",
+  "/background/slider2.jpg",
+  "/background/slider3.jpg",
 ];
 
 export default function ImageSlider() {

@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0 left-0 w-full z-40 backdrop-blur-xl text-gray-500 shadow duration-300 ease-in-out ${
+      className={`fixed top-0 left-0 w-full z-40 backdrop-blur-xl text-gray-500 shadow duration-300 ease-in-out ${
         scrolling &&
         "transform transition-transform duration-200 ease-in-out -translate-y-12"
       }`}
@@ -98,7 +98,7 @@ const Navbar = () => {
       {menuToggle && (
         <div
           id="navbar"
-          className={`md:hidden animate-leftright z-40 drop-shadow-sm fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-[100vh] flex flex-col items-center border-b-2 pb-5 backdrop-blur-3xl bg-white translate-y-0`}
+          className={`md:hidden animate-leftright z-40 fixed top-0 right-0 min-w-[65%] rounded-s-xl min-h-full flex flex-col items-center border-b-2 pb-5 backdrop-blur-3xl bg-white pointer-events-auto`}
         >
           <div className={`mt-7 sm:mt-14 px-10 pt-8 h-screen ${scrolling && "mt-16"}`}>
             <div className="flex flex-col w-full items-center justify-between h-[83dvh]">

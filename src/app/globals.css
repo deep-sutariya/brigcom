@@ -137,13 +137,40 @@
   }
 }
 
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+.sc::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
 }
 
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.sc::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.sc::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px 10px #9f9e9e;
+    border: solid 5px transparent;
+    background-color: transparent;
+    background-clip: padding-box;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    background-color: transparent;
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 10px 10px gray;
+    border: solid 1px transparent;
+    border-radius: 20px;
+    background-color: transparent;
+    background-clip: padding-box;
 }
 
 .scrolled-logo{

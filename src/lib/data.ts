@@ -923,7 +923,7 @@ export const popularProducts = [
   { title: 'Neem Leaves', scientificName: 'Azadirachta indica', image: '/products/Neem_Leaves.jpg', type: "Ayurveda / Natural Herbs"},
   { title: 'Mulethi', scientificName: 'Glycyrrhiza glabra', image: '/products/Mulethi.webp', type: "Ayurveda / Natural Herbs"},
   { title: 'Coriander Seeds', scientificName: 'Coriandrum sativum', image: '/products/Coriander_Seeds.jpg', type: "Spices" },
-  { title: 'Nutraceutical', scientificName: 'Nutraceutical', image: '/products/Nutraceutical.webp', type: "Ayurvedic and Nutraceutical Supplements" },
+  { title: 'Wellness Suppliments', scientificName: 'Wellness Suppliments', image: '/products/Nutraceutical.webp', type: "Ayurvedic and Nutraceutical Supplements" },
 ];
 
 export const productUrltoNameMapping: Record<string, string> = {

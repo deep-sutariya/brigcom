@@ -12,10 +12,10 @@ export default function Home() {
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute z-30 inset-0 bg-black/40 flex flex-col justify-center px-6 md:px-48 text-white ">
-            <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">
+            <h1 className=" text-4xl md:text-5xl font-main font-extrabold mb-4 text-blue-50/90 ">
               Our Product Range
             </h1>
-            <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
+            <div className=" text-sm md:text-base font-main text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
               <Link href="/">HOME</Link>
               <span>/</span>
               <h3 className=" uppercase">Product Range</h3>

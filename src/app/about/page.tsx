@@ -11,10 +11,10 @@ export default function AboutUs() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute z-30 inset-0 bg-black/40 flex flex-col justify-center px-6 md:px-48 text-white ">
-          <h1 className=" text-4xl md:text-5xl font-heading font-extrabold mb-4 text-blue-50/90 ">
+          <h1 className=" text-4xl md:text-5xl font-main font-extrabold mb-4 text-blue-50/90 ">
             About Us
           </h1>
-          <div className=" text-sm md:text-base font-heading text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
+          <div className=" text-sm md:text-base font-main text-blue-50 font-semibold flex gap-x-2 md:gap-x-3">
             <Link href="/">HOME</Link>
             <span>/</span>
             <h3 className=" uppercase">About Us</h3>
@@ -38,7 +38,7 @@ export default function AboutUs() {
               <Link href="/" className="tracking-wide text-[#169EBE]/90">BRIGCOM</Link>
             </h1>
           </div>
-          <div className=" flex flex-col gap-y-4 mx-auto leading-relaxed text-gray-500 text-left font-heading text-sm md:text-sm lg:text-base">
+          <div className=" flex flex-col gap-y-4 mx-auto leading-relaxed text-gray-500 text-left font-main text-sm md:text-sm lg:text-base">
             <p>
               We specialise in sourcing and delivering premium-quality herbs,
               spices, and oilseeds from India, with an unwavering commitment to
@@ -163,7 +163,7 @@ export default function AboutUs() {
         <div className="absolute bottom-[-5%] right-[-10%] w-[250px] h-[250px] bg-[#3bbfdd] opacity-30 rounded-full animate-float2"></div>
 
         <div className="max-w-4xl mx-auto text-left relative z-10">
-          <h2 className="text-2xl md:text-5xl font-semibold mb-7 md:mb-10 animate-fadeInUp font-heading text-gray-50">
+          <h2 className="text-2xl md:text-5xl font-semibold mb-7 md:mb-10 animate-fadeInUp font-main text-gray-50">
             Our Promise
           </h2>
           <div className=" flex gap-x-3 text-xs md:text-lg leading-relaxed mb-4 md:mb-6 animate-fadeInUp animate-delay-200 font-details">

@@ -28,14 +28,14 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative mx-auto mt-14 sm:mt-20 py-16 flex flex-col justify-center items-center gap-y-16 bg-[#90e6f9]/15">
+      <div className="relative mx-auto mt-14 sm:mt-20 pt-12 pb-12 flex flex-col justify-center items-center gap-y-5 bg-[#90e6f9]/15">
         <div className=" w-fit mx-auto ">
           <div className="font-main text-lg lg:text-3xl font-semibold text-gray-700">
             Popular Products
           </div>
           <div className=" mt-2 border-b-3 rounded-full max-w-[20%] mx-auto border-[#169EBE]"></div>
         </div>
-        <div className="">
+        <div className="relative">
           <PopularProductsSlider />
         </div>
       </div>

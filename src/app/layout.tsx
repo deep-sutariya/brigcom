@@ -16,7 +16,7 @@ export default function RootLayout({
       <body className="bg-detail scroll-smooth ">
         <main className="relative flex flex-col min-h-screen overflow-x-hidden ">
           <Navbar />
-          <div className="flex-1">{children}</div>
+          <div className="flex-1 mt-[88px] md:mt-[120px]">{children}</div>
           <Footer />
         </main>
       </body>
