@@ -1,10 +1,73 @@
 "use client";
 
+import { useState } from "react";
 import { FooterData } from "@/lib/data";
 import { Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    country: "India (+91)",
+    phone: "",
+    company: "",
+    message: "",
+  });
+
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const { name, email, country, phone, company, message } = formData;
+
+    const html = `
+      <h3>New Contact Request</h3>
+      <p><strong>Name:</strong> ${name}</p>
+      <p><strong>Email:</strong> ${email}</p>
+      <p><strong>Phone:</strong> ${country} ${phone}</p>
+      <p><strong>Company:</strong> ${company}</p>
+      <p><strong>Message:</strong> ${message}</p>
+    `;
+
+    const data = {
+      to: email,
+      subject: "Brigcom Query",
+      html: html,
+      text: "From website contact page",
+    };
+
+    try {
+      const res = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (res.status == 200) {
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          country: "India (+91)",
+          phone: "",
+          company: "",
+          message: "",
+        });
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Failed to send message. Please try again.");
+    }
+  };
+
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <div className="w-full h-[260px] md:h-[320px] relative overflow-hidden shadow-lg">
@@ -52,39 +115,64 @@ export default function Contact() {
 
         <div>
           <h2 className="text-lg font-bold mb-5">CONNECT WITH US:</h2>
-          <form className="space-y-5">
+          <form className="space-y-5" onSubmit={handleSubmit}>
             <div className="grid md:grid-cols-2 gap-4">
               <input
+                name="name"
                 type="text"
                 placeholder="Full Name *"
+                value={formData.name}
+                onChange={handleChange}
                 className="border px-4 py-2 rounded w-full"
+                required
               />
               <input
+                name="email"
                 type="email"
                 placeholder="Email *"
+                value={formData.email}
+                onChange={handleChange}
                 className="border px-4 py-2 rounded w-full"
+                required
               />
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <select className="border px-4 py-2 rounded w-full">
+              <select
+                name="country"
+                value={formData.country}
+                onChange={handleChange}
+                className="border px-4 py-2 rounded w-full"
+              >
                 <option>India (+91)</option>
                 <option>USA (+1)</option>
                 <option>UK (+44)</option>
               </select>
               <input
+                name="phone"
                 type="tel"
                 placeholder="Mobile Number *"
+                value={formData.phone}
+                onChange={handleChange}
                 className="border px-4 py-2 rounded w-full"
+                required
               />
             </div>
             <input
+              name="company"
               type="text"
               placeholder="Company Name *"
+              value={formData.company}
+              onChange={handleChange}
               className="border px-4 py-2 rounded w-full"
+              required
             />
             <textarea
+              name="message"
               placeholder="Message *"
+              value={formData.message}
+              onChange={handleChange}
               className="border px-4 py-2 rounded w-full h-24 resize-none"
+              required
             />
             <button
               type="submit"

@@ -6,7 +6,9 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const images = [
   "/background/slider1.jpg",
   "/background/slider2.jpg",
-  "/background/slider3.jpg",
+  "/background/herbs.jpg",
+  "/background/spices.jpg",
+  "/background/ayurvedicandnutraceutical.jpg"
 ];
 
 export default function ImageSlider() {

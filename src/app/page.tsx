@@ -1,3 +1,4 @@
+import CertificateSection from "@/components/CertificaetSection";
 import ImageSlider from "@/components/ImageSideBar";
 import { PopularProductsSlider } from "@/components/PopularProductsSlider";
 import ProductCard from "@/components/ProductsCard";
@@ -129,6 +130,8 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <CertificateSection />
     </div>
   );
 }
