@@ -30,7 +30,7 @@ export default function Contact() {
     const { name, email, country, phone, company, message } = formData;
 
     const html = `
-      <h3>New Contact Request</h3>
+      <h3>New Request</h3>
       <p><strong>Name:</strong> ${name}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Phone:</strong> ${country} ${phone}</p>
