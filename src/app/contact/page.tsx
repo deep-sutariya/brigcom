@@ -15,6 +15,8 @@ export default function Contact() {
     message: "",
   });
 
+  const [loding, setLoading] = useState(false);
+
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
@@ -44,8 +46,8 @@ export default function Contact() {
       html: html,
       text: "From website contact page",
     };
-
     try {
+      setLoading(true);
       const res = await fetch("/api/sendEmail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -62,8 +64,10 @@ export default function Contact() {
           message: "",
         });
       }
+      setLoading(false);
     } catch (err) {
       console.error(err);
+      setLoading(false);
       alert("Failed to send message. Please try again.");
     }
   };
@@ -176,9 +180,10 @@ export default function Contact() {
             />
             <button
               type="submit"
+              disabled={loding}
               className="bg-[#169EBE] hover:bg-[#169EBE]/80 text-white px-6 py-2 rounded-lg shadow cursor-pointer w-1/2 font-semibold"
             >
-              Submit
+              {loding ? "Submiting..." : "Submit"}
             </button>
           </form>
         </div>

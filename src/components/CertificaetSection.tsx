@@ -20,10 +20,10 @@ const CertificateSection = () => {
         </div>
         <div className="mt-2 lg:mt-3 border-b-3 rounded-full max-w-[20%] mx-auto border-[#169EBE]"></div>
       </div>
-      <div className=" grid grid-cols-3 gap-5 items-center justify-center">
-        {images.map((item) => {
+      <div className=" grid grid-cols-2 lg:grid-cols-3 gap-5 items-center justify-center">
+        {images.map((item, index) => {
           return (
-            <div className=" mx-auto">
+            <div className=" mx-auto" key={index}>
               <img className="rounded-4xl w-65 h-55 object-contain" src={item} alt={item} />
             </div>
           );

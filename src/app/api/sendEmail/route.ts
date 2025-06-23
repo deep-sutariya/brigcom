@@ -13,14 +13,14 @@ const sendEmail = async ({ to, subject, html, text }: EmailPayload) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "",
-      pass: "",
+      user: "brigcom.enterprise@gmail.com",
+      pass: "ivgvdyeljqutobtl",
     },
   });
 
   const mailOptions = {
     from: `Brigcom Query`,
-    to,
+    to: `info@brigcom.com`,
     subject,
     html,
     text,
@@ -28,10 +28,8 @@ const sendEmail = async ({ to, subject, html, text }: EmailPayload) => {
 
   try {
     const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent:", info.response);
-    return info;
   } catch (error) {
-    console.error("Error sending email:", error);
+    console.error("Error sending email: ");
     throw error;
   }
 } 
