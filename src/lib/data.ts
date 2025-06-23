@@ -17,7 +17,7 @@ export const FooterData = {
   Contact: [
     { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9", type: "address" },
     { name: "Phone Number:", detail: "+91 75676 12902", link: "tel:+917567612902", type: "phone" },
-    { name: "Email:", detail: "brigcom.enterprise@gmail.com", link: "mailto:brigcom.enterprise@gmail.com", type: "email" }
+    { name: "Email:", detail: "info@brigcom.com", link: "mailto:info@brigcom.com", type: "email" }
   ]
 
 }
