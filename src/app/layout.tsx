@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import GoogleTranslate from "@/components/GoogleTranslate";
 
 export const metadata: Metadata = {
   title: "Brigcom Enterprise",
@@ -14,9 +15,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-detail scroll-smooth ">
-        <main className="relative flex flex-col min-h-screen overflow-x-hidden ">
+        <div className="bg-red-300">
+          <GoogleTranslate />
+        </div>
+        <main className="relative flex flex-col min-h-screen overflow-x-hidden">
           <Navbar />
-          <div className="flex-1 mt-[88px] md:mt-[120px]">{children}</div>
+          <div className="flex-1 mt-[108px] md:mt-[140px]">{children}</div>
           <Footer />
         </main>
       </body>

@@ -49,6 +49,11 @@ export default function Certificates() {
       </div>
       <div className=" grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 px-5 md:px-28 lg:px-48 mt-16 md:mt-24 mb-20 md:mb-32">
         <CertificateCard
+          imageUrl="/certificates/firstPage/GST.webp"
+          link="/certificates/GST.pdf"
+          title="GST"
+        />
+        <CertificateCard
           imageUrl="/certificates/firstPage/Business_Terms.webp"
           link="/certificates/Business_Terms.pdf"
           title="Business Terms"
@@ -57,11 +62,6 @@ export default function Certificates() {
           imageUrl="/certificates/firstPage/FSSAI.webp"
           link="/certificates/FSSAI.pdf"
           title="FSSAI"
-        />
-        <CertificateCard
-          imageUrl="/certificates/firstPage/GST.webp"
-          link="/certificates/GST.pdf"
-          title="GST"
         />
         <CertificateCard
           imageUrl="/certificates/firstPage/IEC.webp"

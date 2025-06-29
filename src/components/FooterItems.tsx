@@ -22,15 +22,15 @@ type Props = {
 };
 
 const getIcon = (type: string) => {
-    switch(type){
-        case "email":
-            return <MdEmail />
-        case "address":
-            return <MdLocationOn /> 
-        case "phone":
-            return <MdLocalPhone />
-    }
-}
+  switch (type) {
+    case "email":
+      return <MdEmail />;
+    case "address":
+      return <MdLocationOn />;
+    case "phone":
+      return <MdLocalPhone />;
+  }
+};
 
 export default function FooterItems({ heading, details, contact }: Props) {
   return (
@@ -45,23 +45,41 @@ export default function FooterItems({ heading, details, contact }: Props) {
         {contact?.length
           ? contact.map(({ name, detail, link, type }) => {
               return (
-                <div className="flex gap-x-3 font-semibold text-sm sm:text-base" key={type}>
+                <div
+                  className="flex gap-x-3 font-semibold text-sm sm:text-base"
+                  key={type}
+                >
                   <div className=" text-lg pt-1">{getIcon(type)}</div>
                   <div className=" flex flex-col gap-y-1">
                     <div className=" text-gray-100 text-base">{name}</div>
-                      <Link href={link} className="hover:text-gray-300 text-gray-300/90"><div className="hover:text-gray-300 text-gray-300/90" >{detail}</div></Link>
+                    <Link
+                      href={link}
+                      className="hover:text-gray-300 text-gray-300/90"
+                    >
+                      <div className="hover:text-gray-300 text-gray-300/90">
+                        {detail}
+                      </div>
+                    </Link>
                   </div>
                 </div>
               );
             })
           : details?.map(({ name, link }) => {
-              return (
+              return heading == "Branches" ? (
+                <div
+                  key={link}
+                  className="flex gap-x-2 items-center hover:text-gray-300 font-semibold text-sm sm:text-base"
+                >
+                  <RiArrowRightSLine className="text-gray-100" />
+                  {name}
+                </div>
+              ) : (
                 <Link
                   href={link}
                   key={link}
                   className="flex gap-x-2 items-center hover:text-gray-300 font-semibold text-sm sm:text-base"
                 >
-                  <RiArrowRightSLine className="text-gray-100"/>
+                  <RiArrowRightSLine className="text-gray-100" />
                   {name}
                 </Link>
               );

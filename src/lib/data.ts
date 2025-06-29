@@ -12,7 +12,8 @@ export const FooterData = {
     { name: "Supplements", link: "/products/ayurvedicandnutraceutical" },
   ],
   Branches: [
-    { name: "Surat", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9" }
+    // { name: "Surat", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9" }
+    { name: "Surat", link: "/" }
   ],
   Contact: [
     { name: "Registered Office Address:", detail: "2nd Floor, 24/A, Patel Industrial Estate, Bambavadi, Tunki, Patel Nagar, Surat, Gujarat, India 395004", link: "https://maps.app.goo.gl/oWJkeXQgW1eHuNBe9", type: "address" },
