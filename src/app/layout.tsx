@@ -20,7 +20,7 @@ export default function RootLayout({
         </div>
         <main className="relative flex flex-col min-h-screen overflow-x-hidden">
           <Navbar />
-          <div className="flex-1 mt-[108px] md:mt-[140px]">/*{children}*/ Under Maintenance</div>
+          <div className="flex-1 mt-[108px] md:mt-[140px]">Website is Under Maintenance</div>
           <Footer />
         </main>
       </body>
