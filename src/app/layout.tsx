@@ -19,9 +19,9 @@ export default function RootLayout({
           <GoogleTranslate />
         </div>
         <main className="relative flex flex-col min-h-screen overflow-x-hidden">
-         
-          <div className="flex-1 mt-[308px] md:mt-[340px]">Website is Under Maintenance</div>
-         
+         <Navbar />
+          <div className="flex-1 mt-[308px] md:mt-[340px]">{children}</div>
+         <Footer />
         </main>
       </body>
     </html>
